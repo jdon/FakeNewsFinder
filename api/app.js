@@ -17,8 +17,11 @@ app.get('/url/:url', function(req,res){
         {
             console.log("error");
             res.send({url:url,score:score,js:"error"})
+            // this is called when the api is down and not if the website can't be parsed
+            // the json that is returned needs to be examined for that
         }
         res.send({url:url,score:score,result:result});
+        // the api is up and working, the json still needs to parsed to see if it was able to scrape
 
     });
 });
