@@ -18,11 +18,28 @@ app.get('/url/:url', function(req,res){
         if(error)
         {
             console.log("error");
-            res.send({url:url,score:score,js:"error"})
+            res.send({ApiStat:"Down"})
             // this is called when the api is down and not if the website can't be parsed
         }
-        res.send({url:url,score:score,result:result});
-        // the api is up and working, the json still needs to parsed to see if it was able to scrape
+        var statcode = result.statusCode;
+        if(statcode != 200)
+        {
+            // api is downn
+            res.send({ApiStat:"Down"});
+        }else
+        {
+            //parse json since api is up
+            var result = JSON.parse(result.body);
+            var title = result.title;
+            var author = result.author;
+            var url = result.url;
+            var domain = result.domain;
+            var content = result.content;
+            var excerpt = result.excerpt;
+            var leadImageURL = result.lead_image_url;
+            console.log(title + author + url + domain + excerpt + leadImageURL);
+            res.send({url:url,domain:domain,title:title,author:author,excerpt:excerpt,leadImageURL:leadImageURL});
+        }
 
     });
 });
