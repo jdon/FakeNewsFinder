@@ -1,10 +1,10 @@
 <script>
-function memes(){
-	var url = document.getElementById("memebox").value;
+function search(){
+	var url = document.getElementById("searchbox").value;
 	var uri = encodeURIComponent(url);
 	var location = window.location;
 	window.open(location+"url/" + uri);
 }
 </script>
-<input type="text" id="memebox">
-<button type="button" onclick="memes()">Click to check</button>
+<input type="text" id="searchbox">
+<button type="button" onclick="searchbutton()">Click to check</button>
