@@ -4,7 +4,9 @@
   "private": true,
   "dependencies": {
     "express": "latest",
-    "request" : "latest"
+    "request" : "latest",
+    "aylien_textapi": "latest",
+    "aws-sdk": "~2.1.35"
   },
   "scripts": {
     "start": "node app.js"

@@ -6,7 +6,7 @@ var request = require('request');
 module.exports = {
     parse: function (website,callback) {
         var options = {
-            url: 'https://mercury.postlight.com/parser?url=http://'+website,
+            url: 'https://mercury.postlight.com/parser?url='+website,
             method: 'GET',
             headers: {
                 'Content-Type': 'application/json',
