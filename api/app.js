@@ -3,6 +3,7 @@ var express = require('express');
 var parser = require('./NewsParser');
 var app = express();
 var fs = require('fs');
+var politifact = require('./Politifact');
 
 app.get('/', function(req,res) {
 	res.send(fs.readFileSync(__dirname+'/index.html','utf8'));
@@ -10,7 +11,7 @@ app.get('/', function(req,res) {
 app.get('/url/:url', function(req,res){
     var url = req.params.url;
     url = url.replace(/(^\w+:|^)\/\//, '').replace(/^www\./,'');
-    console.log(url);
+    // console.log(url);
     var score = Math.random()*5;
     score = Math.round(score);
     parser.parse(url,function(error,result)
@@ -37,8 +38,13 @@ app.get('/url/:url', function(req,res){
             var content = result.content;
             var excerpt = result.excerpt;
             var leadImageURL = result.lead_image_url;
-            console.log(title + author + url + domain + excerpt + leadImageURL);
+            // console.log(title + author + url + domain + excerpt + leadImageURL);
             res.send({url:url,domain:domain,title:title,author:author,excerpt:excerpt,leadImageURL:leadImageURL});
+			
+			politifact.getData(1,function(data){
+				console.log(data);
+			});
+			
         }
 
     });
