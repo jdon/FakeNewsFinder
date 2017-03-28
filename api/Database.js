@@ -23,7 +23,7 @@ module.exports = {
     },
     get: function (URL,callback) {
         var params = {
-            Item: {
+            Key: {
                 "URL": {
                     S: URL
                 },
