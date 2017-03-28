@@ -1,12 +1,12 @@
 var port = process.env.PORT || 3000;
 var express = require('express');
 var parser = require('./NewsParser');
-var dynDb = require('./Database');
+var dynDb;
 var NLP = require('./NLP');
 var app = express();
 var fs = require('fs');
-var useDB = false;
-
+var useDB = true;
+if(useDB) dynDb = require('./Database');
 app.get('/', function(req,res) {
 	res.send(fs.readFileSync(__dirname+'/index.html','utf8'));
 });
@@ -32,7 +32,7 @@ app.get('/url/:url', function(req,res){
                 if(result.Item.Content) content = result.Item.Content.S;
                 if(result.Item.Excerpt) excerpt = result.Item.Excerpt.S;
                 if(result.Item.leadImageURL) leadImageURL = result.Item.leadImageURL.S;
-                res.send({url:url,domain:domain,title:title,author:author,excerpt:excerpt,leadImageURL:leadImageURL,cached:true});
+                res.send({url:url,domain:domain,title:title,author:author,excerpt:excerpt,leadImageURL:leadImageURL,Content:content,cached:true});
             }//database is down so just parse like normal
             else
                 {
@@ -61,12 +61,12 @@ app.get('/url/:url', function(req,res){
                             leadImageURL = result.lead_image_url;
 
                             //send response back to user
-                            res.send({url:url,domain:domain,title:title,author:author,excerpt:excerpt,leadImageURL:leadImageURL,cached:false});
+                            res.send({url:url,domain:domain,title:title,author:author,excerpt:excerpt,leadImageURL:leadImageURL,Content:content,cached:false});
 
                             //put into the database after the response is set to speed up the process
                             if(useDB)
                             {
-                                dynDb.put(url,domain,title,author,excerpt,function(error,result)
+                                dynDb.put(url,domain,title,author,excerpt,content,leadImageURL,function(error,result)
                                 {
                                     if (error) console.log(error, error.stack); // an error occurred
                                     else     console.log(result);           // successful response

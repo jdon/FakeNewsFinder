@@ -5,7 +5,7 @@ var AWS = require('aws-sdk');
 AWS.config.loadFromPath(__dirname + '/config.json');
 var dynamodb = new AWS.DynamoDB();
 module.exports = {
-    put: function (URL,domain,title,author,excerpt,callback) {
+    put: function (URL,domain,title,author,excerpt,content,leadImage,callback) {
         var params = {
             Item: {
                 "URL": {
@@ -19,6 +19,8 @@ module.exports = {
         if(title)params.Item["Title"]= {S: title};
         if(author)params.Item["Author"]= {S: author};
         if(excerpt)params.Item["Excerpt"]= {S: excerpt};
+        if(content)params.Item["Content"]= {S: content};
+        if(leadImage)params.Item["leadImageURL"]= {S: leadImage};
         dynamodb.putItem(params, callback);
     },
     get: function (URL,callback) {
