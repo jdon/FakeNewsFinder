@@ -63,10 +63,6 @@ app.get('/url/:url', function(req,res){
 
                         //send response back to user
                         res.send({url:url,domain:domain,title:title,author:author,excerpt:excerpt,leadImageURL:leadImageURL,Content:content,cached:false});
-
-                        politifact.getData(1,function(data){
-                            console.log(data);
-                        });
                         //put into the database after the response is set to speed up the process
                         if(useDB)
                         {
@@ -81,6 +77,9 @@ app.get('/url/:url', function(req,res){
                 });
             }
         }));
+    politifact.getData(1,function(data){
+        console.log(data);
+    });
 });
 function isEmpty(obj) {
     // null and undefined are "empty"
