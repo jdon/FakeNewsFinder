@@ -2,6 +2,7 @@ var port = process.env.PORT || 3000;
 var express = require('express');
 var parser = require('./NewsParser');
 var politifact = require('./Politifact');
+var domainlist = require('./domainList');
 var dynDb;
 var NLP = require('./NLP');
 var app = express();
@@ -15,6 +16,8 @@ app.get('/url/:url', function(req,res){
     var url = req.params.url.replace(/(^\w+:|^)\/\//, '').replace(/^www\./,'');
     url = "http://"+url;
     //vars might be null
+	
+	
     var title;
     var author;
     var domain;
@@ -25,7 +28,7 @@ app.get('/url/:url', function(req,res){
     if(dynDb.get(url,function(error,result)
         {
             //result from the database so set the vars
-            if(result && !isEmpty(result) && useDB)
+            if(result && !isEmpty(result) && useDB && 1==0)
             {
                 if(result.Item.Title) title = result.Item.Title.S;
                 if(result.Item.Author) author = result.Item.Author.S;
@@ -61,6 +64,15 @@ app.get('/url/:url', function(req,res){
                         excerpt = result.excerpt;
                         leadImageURL = result.lead_image_url;
 
+						var dlPromise = domainlist.checkDomain(domain.replace('www.',''));
+						dlPromise.then(function(result){
+							console.log(result);
+						}).catch(function(e){
+							console.log("JSON file is ded jim");
+						});
+						
+						domainlist.tempForJonny();
+						
                         //send response back to user
                         res.send({url:url,domain:domain,title:title,author:author,excerpt:excerpt,leadImageURL:leadImageURL,Content:content,cached:false});
                         //put into the database after the response is set to speed up the process
@@ -77,9 +89,9 @@ app.get('/url/:url', function(req,res){
                 });
             }
         }));
-    politifact.getData(1,function(data){
-        console.log(data);
-    });
+    // politifact.getData(1,function(data){
+        // console.log(data);
+    // });
 });
 function isEmpty(obj) {
     // null and undefined are "empty"
