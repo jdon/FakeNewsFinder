@@ -73,6 +73,7 @@ app.get('/url/:url', function(req,res){
 							// console.log("JSON file is ded jim");
 						// });
 						
+						var toSend = {domain:domain,title:title,author:author};
 						
 						var dlPromise = domainlist.checkDomainDB(domain.replace('www.',''));
 						dlPromise.then(function(result){
