@@ -1,0 +1,4310 @@
+{
+  "100percentfedup.com": {
+    "type": "bias",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "21stcenturywire.com": {
+    "type": "conspiracy",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "24newsflash.com": {
+    "type": "fake",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "365usanews.com": {
+    "type": "bias",
+    "type2": "conspiracy",
+    "type3": "",
+    "notes": ""
+  },
+  "4threvolutionarywar.wordpress.com": {
+    "type": "bias",
+    "type2": "conspiracy",
+    "type3": "",
+    "notes": ""
+  },
+  "70news.wordpress.com": {
+    "type": "fake",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "82.221.129.208": {
+    "type": "conspiracy",
+    "type2": "fake",
+    "type3": "",
+    "notes": ""
+  },
+  "aanirfan.blogspot.co.uk": {
+    "type": "unreliable",
+    "type2": "",
+    "type3": "",
+    "notes": 0
+  },
+  "abcnews.com.co": {
+    "type": "fake",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "abcnewsgo.co": {
+    "type": "fake",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "abeldanger.net": {
+    "type": "conspiracy",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "abovetopsecret.com": {
+    "type": "conspiracy",
+    "type2": "rumor",
+    "type3": "",
+    "notes": ""
+  },
+  "abriluno.com": {
+    "type": "satire",
+    "type2": "fake",
+    "type3": "",
+    "notes": ""
+  },
+  "aceflashman.wordpress.com": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "Acting-Man.com": {
+    "type": "unreliable",
+    "type2": "conspiracy",
+    "type3": "",
+    "notes": "publishes articles denying climate change"
+  },
+  "activistpost.com": {
+    "type": "conspiracy",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "addictinginfo.org": {
+    "type": "clickbait",
+    "type2": "unreliable",
+    "type3": "",
+    "notes": ""
+  },
+  "adobochronicles.com": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "advocate.com": {
+    "type": "political",
+    "type2": "credible",
+    "type3": "",
+    "notes": ""
+  },
+  "aheadoftheherd.com": {
+    "type": "bias",
+    "type2": "",
+    "type3": "",
+    "notes": "false quotes regarding banking, heavily promotes businesses advertising on site/ buying of precious metals"
+  },
+  "ahtribune.com": {
+    "type": "unreliable",
+    "type2": "bias",
+    "type3": "",
+    "notes": ""
+  },
+  "allnewspipeline.com": {
+    "type": "unreliable",
+    "type2": "conspiracy",
+    "type3": "",
+    "notes": ""
+  },
+  "Alt-Market.com": {
+    "type": "conspiracy",
+    "type2": "bias",
+    "type3": "",
+    "notes": ""
+  },
+  "alternativemediasyndicate.com": {
+    "type": "fake",
+    "type2": "",
+    "type3": "",
+    "notes": "http://alternativemediasyndicate.com/2017/02/02/police-raid-standing-rock-camp-destroy-tipis-burning-remains/"
+  },
+  "alternet.org": {
+    "type": "political",
+    "type2": "credible",
+    "type3": "",
+    "notes": ""
+  },
+  "americanblog.com": {
+    "type": "unknown",
+    "type2": "",
+    "type3": "",
+    "notes": "domain for sale"
+  },
+  "americanfreepress.net": {
+    "type": "conspiracy",
+    "type2": "bias",
+    "type3": "",
+    "notes": ""
+  },
+  "AmericanKabuki.blogspot.com": {
+    "type": "junksci",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "americanlookout.com": {
+    "type": "bias",
+    "type2": "clickbait",
+    "type3": "",
+    "notes": ""
+  },
+  "americannews.com": {
+    "type": "fake",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "americannewsx.com": {
+    "type": "bias",
+    "type2": "clickbait",
+    "type3": "satire",
+    "notes": ""
+  },
+  "americanoverlook.com": {
+    "type": "fake",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "americanpatriotdaily.com": {
+    "type": "bias",
+    "type2": "clickbait",
+    "type3": "bias",
+    "notes": ""
+  },
+  "americanprogress.org": {
+    "type": "political",
+    "type2": "credible",
+    "type3": "",
+    "notes": ""
+  },
+  "americanreviewer.com": {
+    "type": "conspiracy",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "americanthinker.com": {
+    "type": "bias",
+    "type2": "",
+    "type3": "",
+    "notes": "sites both credible/not credible sources, mix of opinion/'fact'"
+  },
+  "americantoday.news": {
+    "type": "rumor",
+    "type2": "bias",
+    "type3": "",
+    "notes": ""
+  },
+  "americasfreedomfighters.com": {
+    "type": "bias",
+    "type2": "clickbait",
+    "type3": "",
+    "notes": ""
+  },
+  "AmmoLand.com": {
+    "type": "bias",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "amplifyingglass.com": {
+    "type": "clickbait",
+    "type2": "satire",
+    "type3": "",
+    "notes": ""
+  },
+  "amren.com": {
+    "type": "hate",
+    "type2": "conspiracy",
+    "type3": "",
+    "notes": ""
+  },
+  "amtvmedia.com": {
+    "type": "rumor",
+    "type2": "unreliable",
+    "type3": "",
+    "notes": ""
+  },
+  "amusmentic.com": {
+    "type": "clickbait",
+    "type2": "rumor",
+    "type3": "",
+    "notes": ""
+  },
+  "ancient-code.com": {
+    "type": "junksci",
+    "type2": "unreliable",
+    "type3": "",
+    "notes": ""
+  },
+  "angrypatriotmovement.com": {
+    "type": "conspiracy",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "anonews.co": {
+    "type": "unreliable",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "anonhq.com": {
+    "type": "unreliable",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "anonnews.co": {
+    "type": "unreliable",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "anotherdayintheempire.com": {
+    "type": "bias",
+    "type2": "conspiracy",
+    "type3": "",
+    "notes": ""
+  },
+  "antiwar.com": {
+    "type": "bias",
+    "type2": "unreliable",
+    "type3": "",
+    "notes": "site is biased but very open about bias and source"
+  },
+  "antoniusaquinas.wp.com": {
+    "type": "bias",
+    "type2": "conspiracy",
+    "type3": "",
+    "notes": ""
+  },
+  "asia-pacificresearch.com": {
+    "type": "unreliable",
+    "type2": "satire",
+    "type3": "",
+    "notes": ""
+  },
+  "assassinationscience.com": {
+    "type": "conspiracy",
+    "type2": "junksci",
+    "type3": "",
+    "notes": ""
+  },
+  "associatedmediacoverage.com": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "attn.com": {
+    "type": "political",
+    "type2": "clickbait",
+    "type3": "",
+    "notes": ""
+  },
+  "AutomaticEarth.com": {
+    "type": "unreliable",
+    "type2": "",
+    "type3": "",
+    "notes": "links to MSM sources and unreliable sources"
+  },
+  "automotostar.com": {
+    "type": "clickbait",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "awarenessact.com": {
+    "type": "conspiracy",
+    "type2": "junksci",
+    "type3": "",
+    "notes": ""
+  },
+  "awazetribune.com": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "awdnews.com": {
+    "type": "conspiracy",
+    "type2": "",
+    "type3": "",
+    "notes": "twitter account deleted?"
+  },
+  "awm.com": {
+    "type": "unreliable",
+    "type2": "bias",
+    "type3": "clickbait",
+    "notes": ""
+  },
+  "BadSquad.com": {
+    "type": "unknown",
+    "type2": "",
+    "type3": "",
+    "notes": "website down"
+  },
+  "baptistnews.com": {
+    "type": "political",
+    "type2": "",
+    "type3": "",
+    "notes": "circulates generally reliable information from a p.o.v. but not at the expense of informational integrity"
+  },
+  "barenakedislam.com": {
+    "type": "hate",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "BB4SP.com": {
+    "type": "conpiracy",
+    "type2": "bias",
+    "type3": "bias",
+    "notes": ""
+  },
+  "beehivebugle.com": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "beforeitsnews.com": {
+    "type": "fake",
+    "type2": "conspiracy",
+    "type3": "rumor",
+    "notes": ""
+  },
+  "betootaadvocate.com": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "bients.com": {
+    "type": "clickbait",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "bigamericannews.com": {
+    "type": "satire",
+    "type2": "fake",
+    "type3": "",
+    "notes": ""
+  },
+  "bigbluedimension.com": {
+    "type": "rumor",
+    "type2": "bias",
+    "type3": "",
+    "notes": ""
+  },
+  "bigbluevision.com": {
+    "type": "hate",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "bigbluevision.org": {
+    "type": "clickbait",
+    "type2": "bias",
+    "type3": "",
+    "notes": ""
+  },
+  "bighairynews.com": {
+    "type": "fake",
+    "type2": "conspiracy",
+    "type3": "",
+    "notes": ""
+  },
+  "bignuggetnews.com": {
+    "type": "bias",
+    "type2": "rumor",
+    "type3": "",
+    "notes": ""
+  },
+  "bigpzone.com": {
+    "type": "",
+    "type2": "",
+    "type3": "",
+    "notes": "redirects to http://therundownlive.com/ (MZ 12/2)"
+  },
+  "bipartisanreport.com": {
+    "type": "clickbait",
+    "type2": "bias",
+    "type3": "",
+    "notes": ""
+  },
+  "blackagendareport.com": {
+    "type": "unreliable",
+    "type2": "",
+    "type3": "",
+    "notes": "anon submissions"
+  },
+  "blackgenocide.org": {
+    "type": "conspiracy",
+    "type2": "bias",
+    "type3": "hate",
+    "notes": ""
+  },
+  "blacklistednews.com": {
+    "type": "clickbait",
+    "type2": "unreliable",
+    "type3": "",
+    "notes": ""
+  },
+  "bluenationreview.com": {
+    "type": "clickbait",
+    "type2": "unreliable",
+    "type3": "",
+    "notes": ""
+  },
+  "Boilingfrogspost.com": {
+    "type": "unreliable",
+    "type2": "",
+    "type3": "",
+    "notes": "links to natural news, blacklist news, some conspiracy sites"
+  },
+  "borowitzreport.com": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "bostonleader.com": {
+    "type": "fake",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "breaking911.com": {
+    "type": "clickbait",
+    "type2": "unreliable",
+    "type3": "",
+    "notes": ""
+  },
+  "breakpoint.org": {
+    "type": "unreliable",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "breitbart.com": {
+    "type": "political",
+    "type2": "unreliable",
+    "type3": "bias",
+    "notes": ""
+  },
+  "BrotherJohnF.com": {
+    "type": "bias",
+    "type2": "conspiracy",
+    "type3": "",
+    "notes": ""
+  },
+  "BullionBullsCanada.com": {
+    "type": "conspiracy",
+    "type2": "",
+    "type3": "",
+    "notes": "The \"one\" bank"
+  },
+  "burrardstreetjournal.com": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "buzzfeedusa.com": {
+    "type": "fake",
+    "type2": "rumor",
+    "type3": "",
+    "notes": ""
+  },
+  "bvanews.com": {
+    "type": "unreliable",
+    "type2": "bias",
+    "type3": "fake",
+    "notes": "seems like a combination of totally fake and unreliable reports of 'real' news"
+  },
+  "callthecops.net": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "canadafreepress.com": {
+    "type": "conspiracy",
+    "type2": "bias",
+    "type3": "",
+    "notes": ""
+  },
+  "cap-news.com": {
+    "type": "fake",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "cato.org/blog": {
+    "type": "political",
+    "type2": "credible",
+    "type3": "",
+    "notes": ""
+  },
+  "cbsnews.com.co": {
+    "type": "fake",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "celebtricity.com": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "centerforsecuritypolicy.org": {
+    "type": "bias",
+    "type2": "conspiracy",
+    "type3": "",
+    "notes": "http://www.bbc.com/news/world-us-canada-35037943 ;"
+  },
+  "channel-7-news.com": {
+    "type": "fake",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "charismanews.com": {
+    "type": "bias",
+    "type2": "",
+    "type3": "",
+    "notes": "minimal factual reporting despite being \"news'"
+  },
+  "chaser.com.au": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "checkoutthehealthyworld.com": {
+    "type": "junksci",
+    "type2": "clickbait",
+    "type3": "",
+    "notes": ""
+  },
+  "chicksontheright.com": {
+    "type": "clickbait",
+    "type2": "bias",
+    "type3": "",
+    "notes": ""
+  },
+  "christianfightback.com": {
+    "type": "hate",
+    "type2": "bias",
+    "type3": "",
+    "notes": ""
+  },
+  "christianpost.com": {
+    "type": "credible",
+    "type2": "political",
+    "type3": "",
+    "notes": ""
+  },
+  "christiantimesnewspaper.com": {
+    "type": "rumor",
+    "type2": "bias",
+    "type3": "fake",
+    "notes": "https://www.nytimes.com/2017/01/18/us/fake-news-hillary-clinton-cameron-harris.html?_r=1&mtrref=t.co&gwh=1CC9755BA757D7782D8A46A6F6FBF22E&gwt=pay"
+  },
+  "christwire.org": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "chronicle.su": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "chroniclesmagazine.org": {
+    "type": "political",
+    "type2": "",
+    "type3": "",
+    "notes": "from what I gather, like the opposite of Jacobin (paleoconservative)"
+  },
+  "citizensunited.org": {
+    "type": "bias",
+    "type2": "",
+    "type3": "",
+    "notes": "loaded language etc."
+  },
+  "city-journal.org": {
+    "type": "political",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "cityworldnews.com": {
+    "type": "fake",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "civictribune.com": {
+    "type": "fake",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "clashdaily.com": {
+    "type": "fake",
+    "type2": "conspiracy",
+    "type3": "bias",
+    "notes": ""
+  },
+  "clickhole.com": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "cnnnext.com": {
+    "type": "unreliable",
+    "type2": "",
+    "type3": "",
+    "notes": "basically an RT video channel"
+  },
+  "CNSNews.com": {
+    "type": "unreliable",
+    "type2": "bias",
+    "type3": "",
+    "notes": "The news arm of Media Research Center (a conservative org that is frequently criticized for use of selective evidence)"
+  },
+  "coasttocoastam.com": {
+    "type": "unreliable",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "collective-evolution.com": {
+    "type": "junksci",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "collectivelyconscious.net": {
+    "type": "junksci",
+    "type2": "conspiracy",
+    "type3": "",
+    "notes": ""
+  },
+  "ComingDepression.com": {
+    "type": "unknown",
+    "type2": "",
+    "type3": "",
+    "notes": "website empty"
+  },
+  "commentarymagazine.com": {
+    "type": "political",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "commondreams.org": {
+    "type": "political",
+    "type2": "clickbait",
+    "type3": "",
+    "notes": ""
+  },
+  "concisepolitics.com": {
+    "type": "conspiracy",
+    "type2": "hate",
+    "type3": "",
+    "notes": ""
+  },
+  "consciouslifenews.com": {
+    "type": "junksci",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "conservapedia.com": {
+    "type": "bias",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "conservativebyte.com": {
+    "type": "fake",
+    "type2": "bias",
+    "type3": "",
+    "notes": ""
+  },
+  "conservativedailypost.com": {
+    "type": "fake",
+    "type2": "unreliable",
+    "type3": "",
+    "notes": "This website is a weird mix of outright fake news and some stuff that looks more credible."
+  },
+  "conservativefiringline.com": {
+    "type": "bias",
+    "type2": "conspiracy",
+    "type3": "clickbait",
+    "notes": ""
+  },
+  "conservativefrontline.com": {
+    "type": "unknown",
+    "type2": "",
+    "type3": "",
+    "notes": "website down"
+  },
+  "conservativeheadlines.com": {
+    "type": "unknown",
+    "type2": "",
+    "type3": "",
+    "notes": "website down"
+  },
+  "conservativehq.com": {
+    "type": "bias",
+    "type2": "",
+    "type3": "",
+    "notes": "http://conservativehq.com/article/24945-f-bomb-opposition-president-trump"
+  },
+  "conservativeinfidel.com": {
+    "type": "fake",
+    "type2": "conspiracy",
+    "type3": "",
+    "notes": ""
+  },
+  "conservativeoutfitters.com": {
+    "type": "unreliable",
+    "type2": "clickbait",
+    "type3": "",
+    "notes": ""
+  },
+  "conservativepapers.com": {
+    "type": "bias",
+    "type2": "",
+    "type3": "",
+    "notes": "incorrect/uncited data, citing other sources labeled as bias"
+  },
+  "conservativerefocus.com": {
+    "type": "conspiracy",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "conservativereview.com": {
+    "type": "political",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "conservativespirit.com": {
+    "type": "bias",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "conservativestate.com": {
+    "type": "bias",
+    "type2": "",
+    "type3": "",
+    "notes": "links to other borderline fake, but mostly just propagandistic websites"
+  },
+  "conservativetribune.com": {
+    "type": "bias",
+    "type2": "conspiracy",
+    "type3": "unreliable",
+    "notes": ""
+  },
+  "consortiumnews.com": {
+    "type": "credible",
+    "type2": "",
+    "type3": "",
+    "notes": "The authors on this website are pretty credible and the articles appear well researched"
+  },
+  "conspiracyplanet.com": {
+    "type": "conspiracy",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "conspiracywire.com": {
+    "type": "conspiracy",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "corbettreport.com": {
+    "type": "conspiracy",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "countdowntozerotime.com": {
+    "type": "conspiracy",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "countercurrentnews.com": {
+    "type": "bias",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "countercurrents.org": {
+    "type": "political",
+    "type2": "unreliable",
+    "type3": "",
+    "notes": "This site is pretty explicit about it's p.o.v. and is coming from a political perspective but doesn't fit under how we are defining 'bias'"
+  },
+  "counterinformation.wordpress.com": {
+    "type": "political",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "counterjihad.com": {
+    "type": "bias",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "counterpsyops.com": {
+    "type": "conspiracy",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "counterpunch.com": {
+    "type": "political",
+    "type2": "",
+    "type3": "",
+    "notes": "explicit POV - legit authors"
+  },
+  "counterpunch.org": {
+    "type": "political",
+    "type2": "",
+    "type3": "",
+    "notes": "explicit POV - legit authors"
+  },
+  "cowgernation.com": {
+    "type": "bias",
+    "type2": "conspiracy",
+    "type3": "",
+    "notes": ""
+  },
+  "creambmp.com": {
+    "type": "satire",
+    "type2": "fake",
+    "type3": "",
+    "notes": ""
+  },
+  "cryptogon.com": {
+    "type": "conspiracy",
+    "type2": "unreliable",
+    "type3": "",
+    "notes": "copy-pasted commentary from various news & 'news' sources"
+  },
+  "crystalair.com": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": "redirects to http://www.cap-news.com/"
+  },
+  "dailybuzzlive.com": {
+    "type": "fake",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "dailycaller.com": {
+    "type": "political",
+    "type2": "clickbait",
+    "type3": "bias",
+    "notes": "a weird mix of info. they link to extremely biased sites (as sources) and more credible/balanced sources"
+  },
+  "dailycurrant.com": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "dailydiscord.com": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "dailyheadlines.com": {
+    "type": "fake",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "dailyheadlines.net": {
+    "type": "fake",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "dailyken.com": {
+    "type": "hate",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "dailykos.com": {
+    "type": "political",
+    "type2": "clickbait",
+    "type3": "credible",
+    "notes": ""
+  },
+  "dailyleak.org": {
+    "type": "parody",
+    "type2": "fake",
+    "type3": "",
+    "notes": ""
+  },
+  "dailynewsbin.com": {
+    "type": "bias",
+    "type2": "clickbait",
+    "type3": "",
+    "notes": ""
+  },
+  "dailynewspolitic.com": {
+    "type": "unknown",
+    "type2": "",
+    "type3": "",
+    "notes": "domain for sale"
+  },
+  "dailyoccupation.com": {
+    "type": "conspiracy",
+    "type2": "bias",
+    "type3": "",
+    "notes": ""
+  },
+  "dailypolitics.info": {
+    "type": "unknown",
+    "type2": "",
+    "type3": "",
+    "notes": "website now down"
+  },
+  "dailypoliticsusa.com": {
+    "type": "bias",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "dailysignal.com": {
+    "type": "bias",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "dailysquib.co.uk": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "dailystormer.com": {
+    "type": "hate",
+    "type2": "conspiracy",
+    "type3": "bias",
+    "notes": "pretty well known neo-nazi site"
+  },
+  "dailytelegraph.com.au": {
+    "type": "bias",
+    "type2": "rumor",
+    "type3": "",
+    "notes": "australian tabloid mag"
+  },
+  "dailywire.com": {
+    "type": "bias",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "dandygoat.com": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "darkmoon.me": {
+    "type": "hate",
+    "type2": "bias",
+    "type3": "",
+    "notes": ""
+  },
+  "darkpolitricks.com": {
+    "type": "bias",
+    "type2": "conspiracy",
+    "type3": "",
+    "notes": ""
+  },
+  "dataasylum.com": {
+    "type": "conspiracy",
+    "type2": "junksci",
+    "type3": "",
+    "notes": ""
+  },
+  "DaveJanda.com": {
+    "type": "unreliable",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "davidduke.com": {
+    "type": "hate",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "davidstockmanscontracorner.com": {
+    "type": "political",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "davidwolfe.com": {
+    "type": "conspiracy",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "dcclothesline.com": {
+    "type": "conspiracy",
+    "type2": "junkscience",
+    "type3": "",
+    "notes": ""
+  },
+  "dcgazette.com": {
+    "type": "fake",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "dcleaks.com": {
+    "type": "unreliable",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "DeadLineLive.info": {
+    "type": "political",
+    "type2": "conspiracy",
+    "type3": "",
+    "notes": ""
+  },
+  "DeadlyClear.wordpress.com": {
+    "type": "unknown",
+    "type2": "",
+    "type3": "",
+    "notes": "personal blog that comments on news stories and blog posts"
+  },
+  "debunkingskeptics.com": {
+    "type": "unknown",
+    "type2": "",
+    "type3": "",
+    "notes": "website down"
+  },
+  "defenddemocracy.press": {
+    "type": "bias",
+    "type2": "political",
+    "type3": "",
+    "notes": "editorial board as stated on about us seem to be legitimate academics, and originally authored content byline are academics, although not able to find a clear link between edu pages and these authors' work on this website. Many 3rd party articles are linked, sources provided. These articles are aggregated from other more clearly biased sites i.e. world socialist web site (wswg.org), rt.com, sputniknews.com."
+  },
+  "delectabledietofpics.net": {
+    "type": "unknown",
+    "type2": "",
+    "type3": "",
+    "notes": "website now down"
+  },
+  "dennismichaellynch.com": {
+    "type": "political",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "denverguardian.com": {
+    "type": "fake",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "departed.co": {
+    "type": "fake",
+    "type2": "",
+    "type3": "",
+    "notes": "redircts to dcposts.com"
+  },
+  "der-postillon.com": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": "German language site"
+  },
+  "derfmagazine.com": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "dineal.com": {
+    "type": "junksci",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "disclose.tv": {
+    "type": "satire",
+    "type2": "conspiracy",
+    "type3": "",
+    "notes": ""
+  },
+  "disclosuremedia.net": {
+    "type": "conspiracy",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "dissentmagazine.org": {
+    "type": "political",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "diversitychronicle.wordpress.com": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": "self-labled: https://diversitychronicle.wordpress.com/disclaimer/"
+  },
+  "DollarVigilante.com": {
+    "type": "bias",
+    "type2": "",
+    "type3": "",
+    "notes": "anarcho-capitalist blog"
+  },
+  "donaldtrumpnews.co": {
+    "type": "fake",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "Dont-Tread-On.Me": {
+    "type": "conspiracy",
+    "type2": "",
+    "type3": "",
+    "notes": "doesn't seem to be updating anymore"
+  },
+  "downtrend.com": {
+    "type": "fake",
+    "type2": "satire",
+    "type3": "",
+    "notes": ""
+  },
+  "DProgram.net": {
+    "type": "unknown",
+    "type2": "",
+    "type3": "",
+    "notes": "website down"
+  },
+  "drudgereport.com": {
+    "type": "political",
+    "type2": "bias",
+    "type3": "",
+    "notes": ""
+  },
+  "drudgereport.com.co": {
+    "type": "fake",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "duffleblog.com": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "duhprogressive.com": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "Dutchsinse.com": {
+    "type": "conspiracy",
+    "type2": "",
+    "type3": "",
+    "notes": "weather control"
+  },
+  "EagleRising.com": {
+    "type": "bias",
+    "type2": "clickbait",
+    "type3": "",
+    "notes": ""
+  },
+  "EbolaHoax.com": {
+    "type": "conspiracy",
+    "type2": "",
+    "type3": "",
+    "notes": "domain for sale"
+  },
+  "economicnoise.com": {
+    "type": "political",
+    "type2": "unreliable",
+    "type3": "",
+    "notes": "sites some problematic sources, like CNS news"
+  },
+  "ecowatch.com": {
+    "type": "political",
+    "type2": "",
+    "type3": "",
+    "notes": "this site claims junksci, but I read over a dozen articles w/o finding any. probably should re-check soon https://mediabiasfactcheck.com/ecowatch/"
+  },
+  "educate-yourself.org": {
+    "type": "conspiracy",
+    "type2": "junksci",
+    "type3": "",
+    "notes": ""
+  },
+  "educateinspirechange.org/health": {
+    "type": "clickbait",
+    "type2": "junksci",
+    "type3": "",
+    "notes": ""
+  },
+  "electionnightgatekeepers.com": {
+    "type": "conspiracy",
+    "type2": "unreliable",
+    "type3": "",
+    "notes": ""
+  },
+  "elelephantintheroom.blogspot.com": {
+    "type": "bias",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "elitereaders.com": {
+    "type": "clickbait",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "elkoshary.com": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": "About Me notes that it's not fake/satirical news"
+  },
+  "elmundotoday.com": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": "About Me notes that it's not fake/satirical news"
+  },
+  "embols.com": {
+    "type": "fake",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "empireherald.com": {
+    "type": "fake",
+    "type2": "satire",
+    "type3": "",
+    "notes": ""
+  },
+  "empirenews.net": {
+    "type": "fake",
+    "type2": "satire",
+    "type3": "",
+    "notes": ""
+  },
+  "empiresports.co": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": "About Me notes that it's not fake/satirical news"
+  },
+  "Emptywheel.net": {
+    "type": "political",
+    "type2": "",
+    "type3": "",
+    "notes": "commentary on current events/news"
+  },
+  "enabon.com": {
+    "type": "fake",
+    "type2": "",
+    "type3": "",
+    "notes": "No authors, no contact, just copy/pasted from other questionable sites"
+  },
+  "endingthefed.com": {
+    "type": "bias",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "endoftheamericandream.com": {
+    "type": "unknown",
+    "type2": "",
+    "type3": "",
+    "notes": "website down"
+  },
+  "endtime.com": {
+    "type": "unknown",
+    "type2": "",
+    "type3": "",
+    "notes": "Not sure about this one. zany religious prophecy/not really conspiracy"
+  },
+  "enduringvision.com": {
+    "type": "fake",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "english.ruvr.ru": {
+    "type": "unknown",
+    "type2": "",
+    "type3": "",
+    "notes": "redirects to https://sputniknews.com/"
+  },
+  "EUTimes.net": {
+    "type": "hate",
+    "type2": "conspiracy",
+    "type3": "",
+    "notes": ""
+  },
+  "eutopia.buzz": {
+    "type": "fake",
+    "type2": "satire",
+    "type3": "conspiracy",
+    "notes": ""
+  },
+  "everydayworldnews.com": {
+    "type": "unknown",
+    "type2": "",
+    "type3": "",
+    "notes": "website down"
+  },
+  "everythingnewdaily.com": {
+    "type": "unknown",
+    "type2": "",
+    "type3": "",
+    "notes": "website down"
+  },
+  "ewao.com": {
+    "type": "junksci",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "ExperimentalVaccines.org": {
+    "type": "junksci",
+    "type2": "conspiracy",
+    "type3": "",
+    "notes": ""
+  },
+  "Expose1933.com": {
+    "type": "conspiracy",
+    "type2": "hate",
+    "type3": "",
+    "notes": "references to \"white genocide\" and \"race mixing"
+  },
+  "express.co.uk": {
+    "type": "rumor",
+    "type2": "",
+    "type3": "",
+    "notes": "well-known tabloid"
+  },
+  "extraclubmagazine.com": {
+    "type": "bias",
+    "type2": "clickbait",
+    "type3": "fake",
+    "notes": "vacillates between outright fake and misleading stories"
+  },
+  "eyeopening.info": {
+    "type": "conspiracy",
+    "type2": "junksci",
+    "type3": "",
+    "notes": ""
+  },
+  "fakingnews.com": {
+    "type": "fake",
+    "type2": "satire",
+    "type3": "",
+    "notes": "fiction disclaimer on bottom of home screen"
+  },
+  "familysecuritymatters.org": {
+    "type": "conspiracy",
+    "type2": "bias",
+    "type3": "",
+    "notes": ""
+  },
+  "fantasticword.com": {
+    "type": "unknown",
+    "type2": "",
+    "type3": "",
+    "notes": "website down?"
+  },
+  "FarmWars.info": {
+    "type": "unknown",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "federalistpress.com": {
+    "type": "bias",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "fellowshipoftheminds.com": {
+    "type": "conspiracy",
+    "type2": "junksci",
+    "type3": "",
+    "notes": ""
+  },
+  "filmsforaction.org": {
+    "type": "political",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "FinancialSurvivalNetwork.com": {
+    "type": "unreliable",
+    "type2": "bias",
+    "type3": "",
+    "notes": ""
+  },
+  "firearmscoalition.org": {
+    "type": "unknown",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "floridasunpost.com": {
+    "type": "fake",
+    "type2": "satirical",
+    "type3": "",
+    "notes": "I concur: http://mashable.com/2016/10/03/fake-news-story-man-marries-granddaughter/#QvpAzP.e8Oqb"
+  },
+  "flyheight.com": {
+    "type": "unknown",
+    "type2": "",
+    "type3": "",
+    "notes": "aggregator of actual and potentially altered videos"
+  },
+  "fmobserver.com": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "fognews.ru": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": "site contains satire disclaimer"
+  },
+  "foodbabe.com": {
+    "type": "junksci",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "foreignpolicyjournal.com": {
+    "type": "political",
+    "type2": "",
+    "type3": "",
+    "notes": "legit source coming from a political perspective"
+  },
+  "fort-russ.com": {
+    "type": "unknown",
+    "type2": "",
+    "type3": "",
+    "notes": "website down"
+  },
+  "fourwinds10.net": {
+    "type": "conspiracy",
+    "type2": "junksci",
+    "type3": "",
+    "notes": ""
+  },
+  "fprnradio.com": {
+    "type": "conspiracy",
+    "type2": "fake",
+    "type3": "",
+    "notes": ""
+  },
+  "freakoutnation.com": {
+    "type": "bias",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "FreeBeacon.com": {
+    "type": "bias",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "freedomdaily.com": {
+    "type": "fake",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "FreedomForceInternational.com": {
+    "type": "conspiracy",
+    "type2": "",
+    "type3": "",
+    "notes": "global warming denial"
+  },
+  "freedomoutpost.com": {
+    "type": "conspiracy",
+    "type2": "bias",
+    "type3": "",
+    "notes": ""
+  },
+  "FreedomsPhoenix.com": {
+    "type": "bias",
+    "type2": "conspiracy",
+    "type3": "",
+    "notes": ""
+  },
+  "freedomworks.org": {
+    "type": "political",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "freedomworldnews.com": {
+    "type": "bias",
+    "type2": "unreliable",
+    "type3": "",
+    "notes": ""
+  },
+  "freepatriot.org": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": "site contains satire disclaimer"
+  },
+  "freewoodpost.com": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "fridaymash.com": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "fromthetrenchesworldreport.com": {
+    "type": "conspiracy",
+    "type2": "junksci",
+    "type3": "bias",
+    "notes": ""
+  },
+  "frontpagemag.com": {
+    "type": "bias",
+    "type2": "hate",
+    "type3": "",
+    "notes": "Part of David Horowitz' Freedom Center"
+  },
+  "fusion.net": {
+    "type": "political",
+    "type2": "credible",
+    "type3": "",
+    "notes": "website contains some satire"
+  },
+  "gaia.com": {
+    "type": "conspiracy",
+    "type2": "junksci",
+    "type3": "",
+    "notes": ""
+  },
+  "galacticconnection.com": {
+    "type": "junksci",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "gangstergovernment.com": {
+    "type": "conspiracy",
+    "type2": "bias",
+    "type3": "",
+    "notes": ""
+  },
+  "gatesofvienna.net": {
+    "type": "hate",
+    "type2": "conspiracy",
+    "type3": "",
+    "notes": ""
+  },
+  "geoengineeringwatch.org": {
+    "type": "junksci",
+    "type2": "conspiracy",
+    "type3": "",
+    "notes": ""
+  },
+  "geopolmonitor.com": {
+    "type": "political",
+    "type2": "",
+    "type3": "",
+    "notes": "this website is tricky (in terms of writers using some interesting frames/language). def could use a second analysis."
+  },
+  "glaringhypocrisy.com": {
+    "type": "hate",
+    "type2": "conspiracy",
+    "type3": "",
+    "notes": "references to \"Jew World Order"
+  },
+  "GlobalEconomicAnalysis.com": {
+    "type": "unknown",
+    "type2": "",
+    "type3": "",
+    "notes": "website down 1/27"
+  },
+  "globalresearch.ca": {
+    "type": "conspiracy",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "glossynews.com": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "godlikeproductions.com": {
+    "type": "conspiracy",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "gomerblog.com": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": "site contains satire disclaimer"
+  },
+  "goneleft.com": {
+    "type": "fake",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "GonzaloLira.Blogspot.com": {
+    "type": "unknown",
+    "type2": "",
+    "type3": "",
+    "notes": "blog is invite only"
+  },
+  "gopthedailydose.com": {
+    "type": "fake",
+    "type2": "conspiracy",
+    "type3": "bias",
+    "notes": ""
+  },
+  "govtslaves.info": {
+    "type": "conspiracy",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "greanvillepost.com": {
+    "type": "conspiracy",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "GreenMedInfo.com": {
+    "type": "junksci",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "guardianlv.com": {
+    "type": "political",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "guccifer2.wordpress.com": {
+    "type": "unreliable",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "gulagbound.com": {
+    "type": "bias",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "hangthebankers.com": {
+    "type": "conspiracy",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "healthimpactnews.com": {
+    "type": "junksci",
+    "type2": "bias",
+    "type3": "",
+    "notes": ""
+  },
+  "healthnutnews.com": {
+    "type": "junksci",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "healthy-holistic-living.com": {
+    "type": "junksci",
+    "type2": "clickbait",
+    "type3": "",
+    "notes": ""
+  },
+  "heartland.org": {
+    "type": "bias",
+    "type2": "",
+    "type3": "",
+    "notes": "http://www.sourcewatch.org/index.php/Heartland_Institute"
+  },
+  "heatst.com": {
+    "type": "clickbait",
+    "type2": "bias",
+    "type3": "",
+    "notes": ""
+  },
+  "henrymakow.com": {
+    "type": "conspiracy",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "heresyblog.net": {
+    "type": "bias",
+    "type2": "conspiracy",
+    "type3": "rumor",
+    "notes": ""
+  },
+  "holyobserver.com": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "humansarefree.com": {
+    "type": "conspiracy",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "humortimes.com": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "huzlers.com": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "ifyouonlynews.com": {
+    "type": "unreliable",
+    "type2": "satire",
+    "type3": "",
+    "notes": ""
+  },
+  "ihavethetruth.com": {
+    "type": "bias",
+    "type2": "clickbait",
+    "type3": "fake",
+    "notes": ""
+  },
+  "ijr.com": {
+    "type": "bias",
+    "type2": "unreliable",
+    "type3": "",
+    "notes": ""
+  },
+  "ilovemyfreedom.org": {
+    "type": "bias",
+    "type2": "clickbait",
+    "type3": "",
+    "notes": ""
+  },
+  "immediatesafety.org": {
+    "type": "fake",
+    "type2": "",
+    "type3": "",
+    "notes": "https://immediatesafety.org/dnc-to-hand-debbie-wasserman-schultz-over-to-isis-for-beheadding/"
+  },
+  "in5d.com": {
+    "type": "junksci",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "indiaarising.com": {
+    "type": "clickbait",
+    "type2": "unreliable",
+    "type3": "",
+    "notes": ""
+  },
+  "informationclearinghouse.info": {
+    "type": "conspiracy",
+    "type2": "unreliable",
+    "type3": "",
+    "notes": ""
+  },
+  "informetoday.com": {
+    "type": "bias",
+    "type2": "unreliable",
+    "type3": "",
+    "notes": ""
+  },
+  "infostormer.com": {
+    "type": "fake",
+    "type2": "hate",
+    "type3": "conspiracy",
+    "notes": ""
+  },
+  "infowars.com": {
+    "type": "conspiracy",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "instaworldnews.com": {
+    "type": "bias",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "intellihub.com": {
+    "type": "conspiracy",
+    "type2": "unreliable",
+    "type3": "",
+    "notes": ""
+  },
+  "intrendtoday.com": {
+    "type": "fake",
+    "type2": "clickbait",
+    "type3": "",
+    "notes": ""
+  },
+  "intrepidreport.com": {
+    "type": "bias",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "investmentresearchdynamics.com": {
+    "type": "conspiracy",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "investmentwatchblog.com": {
+    "type": "bias",
+    "type2": "fake",
+    "type3": "",
+    "notes": ""
+  },
+  "ironictimes.com": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "islamicanews.com": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "itaglive.com": {
+    "type": "fake",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "ItMakesSenseBlog.com": {
+    "type": "fake",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "iwanttoexplore.com": {
+    "type": "fake",
+    "type2": "",
+    "type3": "",
+    "notes": "mostly turned back into car website"
+  },
+  "jackpineradicals.com": {
+    "type": "political",
+    "type2": "",
+    "type3": "",
+    "notes": "left wing discussion site"
+  },
+  "jacobinmag.com": {
+    "type": "political",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "jamesrgrangerjr.com": {
+    "type": "bias",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "jesus-is-savior.com": {
+    "type": "conspiracy",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "jewsnews.co.il": {
+    "type": "unreliable",
+    "type2": "bias",
+    "type3": "clickbait",
+    "notes": ""
+  },
+  "johnnyrobish.com": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "jonesreport.com": {
+    "type": "conspiracy",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "journal-neo.org": {
+    "type": "bias",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "katehon.com": {
+    "type": "bias",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "katehon.org": {
+    "type": "unknown",
+    "type2": "",
+    "type3": "",
+    "notes": "russian version of katehon.com? (I think so, but i can't get a read on this one- mz)"
+  },
+  "landoverbaptist.org": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "learnprogress.org": {
+    "type": "fake",
+    "type2": "bias",
+    "type3": "",
+    "notes": "http://www.learnprogress.org/white-house-website-sell-jewelry/"
+  },
+  "legorafi.fr": {
+    "type": "unknown",
+    "type2": "",
+    "type3": "",
+    "notes": "in French"
+  },
+  "lewrockwell.com": {
+    "type": "bias",
+    "type2": "unreliable",
+    "type3": "",
+    "notes": ""
+  },
+  "liberalamerica.org": {
+    "type": "clickbait",
+    "type2": "bias",
+    "type3": "",
+    "notes": ""
+  },
+  "liberalbias.com": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "liberaldarkness.com": {
+    "type": "satire",
+    "type2": "fake",
+    "type3": "",
+    "notes": ""
+  },
+  "libertyblitzkrieg.com": {
+    "type": "fake",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "libertyfederation.com": {
+    "type": "hate",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "libertymovementradio.com": {
+    "type": "conspiracy",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "libertynews.com": {
+    "type": "unreliable",
+    "type2": "bias",
+    "type3": "",
+    "notes": ""
+  },
+  "libertytalk.fm": {
+    "type": "conspiracy",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "libertyunyielding.com": {
+    "type": "bias",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "libertyvideos.org": {
+    "type": "conspiracy",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "libertywritersnews.com": {
+    "type": "clickbait",
+    "type2": "bias",
+    "type3": "unreliable",
+    "notes": ""
+  },
+  "lifeandabout.com": {
+    "type": "bias",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "lifenews.com": {
+    "type": "bias",
+    "type2": "clickbait",
+    "type3": "",
+    "notes": ""
+  },
+  "lifeprevention.com": {
+    "type": "junksci",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "lifesitenews.com": {
+    "type": "clickbait",
+    "type2": "bias",
+    "type3": "",
+    "notes": ""
+  },
+  "lifezette.com": {
+    "type": "clickbait",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "lightlybraisedturnip.com": {
+    "type": "unknown",
+    "type2": "",
+    "type3": "",
+    "notes": "in German"
+  },
+  "liveactionnews.org": {
+    "type": "bias",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "livefreelivenatural.com": {
+    "type": "unknown",
+    "type2": "",
+    "type3": "",
+    "notes": "*Malware Warning, did not navigate to site"
+  },
+  "livevote.com": {
+    "type": "clickbait",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "lovethispic.com": {
+    "type": "clickbait",
+    "type2": "junksci",
+    "type3": "",
+    "notes": ""
+  },
+  "lushforlife.com": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "madpatriots.com": {
+    "type": "unreliable",
+    "type2": "clickbait",
+    "type3": "",
+    "notes": ""
+  },
+  "madworldnews.com": {
+    "type": "unreliable",
+    "type2": "clickbait",
+    "type3": "",
+    "notes": ""
+  },
+  "magafeed.com": {
+    "type": "rumor",
+    "type2": "bias",
+    "type3": "",
+    "notes": "god/emperor\" category for trump"
+  },
+  "makeamericagreattoday.com": {
+    "type": "bias",
+    "type2": "fake",
+    "type3": "",
+    "notes": ""
+  },
+  "mediamass.net": {
+    "type": "fake",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "mediazone.news": {
+    "type": "rumor",
+    "type2": "unreliable",
+    "type3": "",
+    "notes": ""
+  },
+  "megafreshnews.com": {
+    "type": "rumor",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "megynkelly.us": {
+    "type": "fake",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "militianews.com": {
+    "type": "conspiracy",
+    "type2": "bias",
+    "type3": "hate",
+    "notes": ""
+  },
+  "mintpressnews.com": {
+    "type": "political",
+    "type2": "",
+    "type3": "",
+    "notes": "legit source form a political perspective"
+  },
+  "moonofalabama.org": {
+    "type": "bias",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "morningnewsusa.com": {
+    "type": "unreliable",
+    "type2": "",
+    "type3": "",
+    "notes": "stories seem to originate from real news, but are somewhat clickbait-y and sources are not cited"
+  },
+  "mpidailymagazine.com": {
+    "type": "fake",
+    "type2": "bias",
+    "type3": "",
+    "notes": ""
+  },
+  "mrconservative.com": {
+    "type": "fake",
+    "type2": "satire",
+    "type3": "",
+    "notes": ""
+  },
+  "msnbc.website": {
+    "type": "fake",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "mydailyrelaxation.com": {
+    "type": "unknown",
+    "type2": "",
+    "type3": "",
+    "notes": "server not found"
+  },
+  "myfreshnews.com": {
+    "type": "fake",
+    "type2": "bias",
+    "type3": "",
+    "notes": "found linked from iwanttoexplore.com"
+  },
+  "myzonetoday.com": {
+    "type": "fake",
+    "type2": "bias",
+    "type3": "",
+    "notes": ""
+  },
+  "nahadaily.com": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "nakedcapitalism.com": {
+    "type": "political",
+    "type2": "",
+    "type3": "",
+    "notes": "commentary on finance, economics, politics and power"
+  },
+  "nationalreport.net": {
+    "type": "satire",
+    "type2": "fake",
+    "type3": "",
+    "notes": ""
+  },
+  "nationindistress.weebly.com": {
+    "type": "conspiracy",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "nationonenews.com": {
+    "type": "fake",
+    "type2": "conspiracy",
+    "type3": "",
+    "notes": ""
+  },
+  "naturalblaze.com": {
+    "type": "junksci",
+    "type2": "conspiracy",
+    "type3": "",
+    "notes": ""
+  },
+  "naturalnews.com": {
+    "type": "junksci",
+    "type2": "conspiracy",
+    "type3": "",
+    "notes": ""
+  },
+  "nbc.com.co": {
+    "type": "fake",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "nbcpolitics.org": {
+    "type": "unknown",
+    "type2": "",
+    "type3": "",
+    "notes": "website down?"
+  },
+  "nbcpoll.com": {
+    "type": "unknown",
+    "type2": "",
+    "type3": "",
+    "notes": "website down?"
+  },
+  "ncscooper.com": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "nevo.news": {
+    "type": "unreliable",
+    "type2": "bias",
+    "type3": "",
+    "notes": ""
+  },
+  "newcenturytimes.com": {
+    "type": "unreliable",
+    "type2": "bias",
+    "type3": "",
+    "notes": ""
+  },
+  "newcoldwar.org": {
+    "type": "political",
+    "type2": "",
+    "type3": "",
+    "notes": "contains statement that site authors are \"independent, but not non-partisan\" (anti-war (Ukraine))"
+  },
+  "news4ktla.com": {
+    "type": "fake",
+    "type2": "satire",
+    "type3": "",
+    "notes": ""
+  },
+  "newsbbc.net": {
+    "type": "fake",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "newsbiscuit.com": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": "http://www.newsbiscuit.com/about/disclaimer/"
+  },
+  "newsbreakers.org": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "newsbuzzdaily.com": {
+    "type": "fake",
+    "type2": "",
+    "type3": "",
+    "notes": "redirects to http://www.flyheight.com/ (12/14)"
+  },
+  "newscenterusa.com": {
+    "type": "unknown",
+    "type2": "",
+    "type3": "",
+    "notes": "website down"
+  },
+  "newscorpse.com": {
+    "type": "bias",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "newsexaminer.net": {
+    "type": "fake",
+    "type2": "satire",
+    "type3": "",
+    "notes": ""
+  },
+  "newsfrompolitics.com": {
+    "type": "fake",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "newslo.com": {
+    "type": "fake",
+    "type2": "",
+    "type3": "",
+    "notes": "redirects to http://politicops.com/ (12/2)"
+  },
+  "Newsmax.com": {
+    "type": "unreliable",
+    "type2": "bias",
+    "type3": "",
+    "notes": ""
+  },
+  "newsmutiny.com": {
+    "type": "satire",
+    "type2": "fake",
+    "type3": "",
+    "notes": ""
+  },
+  "newsninja2012.com": {
+    "type": "bias",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "newsopening.com": {
+    "type": "unknown",
+    "type2": "",
+    "type3": "",
+    "notes": "website down"
+  },
+  "newstarget.com": {
+    "type": "conspiracy",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "newsthump.com": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": "site contains satire disclaimer"
+  },
+  "newstoad.net": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": "Tagline: The news they don't want you to hear. Because it isn't true."
+  },
+  "newswatch28.com": {
+    "type": "fake",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "newswatch33.com": {
+    "type": "fake",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "newswire-24.com": {
+    "type": "rumor",
+    "type2": "unreliable",
+    "type3": "",
+    "notes": ""
+  },
+  "newswithviews.com": {
+    "type": "fake",
+    "type2": "conspiracy",
+    "type3": "",
+    "notes": ""
+  },
+  "newyorker.com/humor": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "nodisinfo.com": {
+    "type": "conspiracy",
+    "type2": "unreliable",
+    "type3": "",
+    "notes": ""
+  },
+  "NoMoreFakeNews.com": {
+    "type": "conspiracy",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "northcrane.com": {
+    "type": "unreliable",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "notallowedto.com": {
+    "type": "clickbait",
+    "type2": "fake",
+    "type3": "",
+    "notes": ""
+  },
+  "now8news.com": {
+    "type": "fake",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "nowtheendbegins.com": {
+    "type": "conspiracy",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "npiamerica.org": {
+    "type": "hate",
+    "type2": "bias",
+    "type3": "",
+    "notes": "white supremacist think tank"
+  },
+  "nutritionfacts.org": {
+    "type": "credible",
+    "type2": "",
+    "type3": "",
+    "notes": "I read through several articles and the sources cited, and appears ok (maybe sometimes a little sensational... so if anyone has specific knowledge of this site and/or good examples of problems, feel free to link them here)"
+  },
+  "nymeta.co": {
+    "type": "clickbait",
+    "type2": "satire",
+    "type3": "",
+    "notes": "Entertainment website"
+  },
+  "nyuzer.com": {
+    "type": "unknown",
+    "type2": "",
+    "type3": "",
+    "notes": "website domain for sale"
+  },
+  "objectiveministries.org": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "occupydemocrats.com": {
+    "type": "clickbait",
+    "type2": "bias",
+    "type3": "unreliable",
+    "notes": ""
+  },
+  "occupyliberals.com": {
+    "type": "bias",
+    "type2": "clickbait",
+    "type3": "",
+    "notes": ""
+  },
+  "odgossip.com": {
+    "type": "unknown",
+    "type2": "",
+    "type3": "",
+    "notes": "website domain for sale"
+  },
+  "off-guardian.org": {
+    "type": "bias",
+    "type2": "conspiracy",
+    "type3": "",
+    "notes": ""
+  },
+  "oftwominds.com": {
+    "type": "bias",
+    "type2": "conspiracy",
+    "type3": "",
+    "notes": ""
+  },
+  "oilgeopolitics.net": {
+    "type": "conspiracy",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "onlineconservativepress.com": {
+    "type": "fake",
+    "type2": "conspiracy",
+    "type3": "bias",
+    "notes": ""
+  },
+  "opednews.com": {
+    "type": "unknown",
+    "type2": "",
+    "type3": "",
+    "notes": "website kept timing out."
+  },
+  "openmindmagazine.com": {
+    "type": "bias",
+    "type2": "conspiracy",
+    "type3": "",
+    "notes": ""
+  },
+  "orientalreview.org": {
+    "type": "bias",
+    "type2": "conspiracy",
+    "type3": "",
+    "notes": ""
+  },
+  "other98.com": {
+    "type": "clickbait",
+    "type2": "bias",
+    "type3": "unreliable",
+    "notes": ""
+  },
+  "pakalertpress.com": {
+    "type": "fake",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "palmerreport.com": {
+    "type": "bias",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "pamelageller.com": {
+    "type": "conspiracy",
+    "type2": "fake",
+    "type3": "bias",
+    "notes": ""
+  },
+  "patdollar.com": {
+    "type": "bias",
+    "type2": "clickbait",
+    "type3": "",
+    "notes": ""
+  },
+  "patriotchronicle.com": {
+    "type": "bias",
+    "type2": "clickbait",
+    "type3": "",
+    "notes": ""
+  },
+  "patriotnewsdaily.com": {
+    "type": "bias",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "patriotrising.com": {
+    "type": "bias",
+    "type2": "conspiracy",
+    "type3": "",
+    "notes": ""
+  },
+  "patriotupdate.com": {
+    "type": "bias",
+    "type2": "conspiracy",
+    "type3": "",
+    "notes": ""
+  },
+  "paulcraigroberts.org": {
+    "type": "bias",
+    "type2": "conspiracy",
+    "type3": "",
+    "notes": "ex: http://www.paulcraigroberts.org/2016/12/10/has-liberty-departed-from-america-paul-craig-roberts/"
+  },
+  "platosguns.com": {
+    "type": "bias",
+    "type2": "conspiracy",
+    "type3": "bias",
+    "notes": ""
+  },
+  "politicalblindspot.com": {
+    "type": "conspiracy",
+    "type2": "junkscience",
+    "type3": "",
+    "notes": "ex: vaccines are a way for the CIA to spy on us"
+  },
+  "politicalcult.com": {
+    "type": "bias",
+    "type2": "clickbait",
+    "type3": "conspiracy",
+    "notes": ""
+  },
+  "politicalears.com": {
+    "type": "unreliable",
+    "type2": "clickbait",
+    "type3": "",
+    "notes": ""
+  },
+  "politicalo.com": {
+    "type": "fake",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "politicalsitenews.com": {
+    "type": "fake",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "politicaltimes.org": {
+    "type": "unknown",
+    "type2": "",
+    "type3": "",
+    "notes": "site that pops up is only Bluehost Web Hosting site link"
+  },
+  "politicalupdator.com": {
+    "type": "fake",
+    "type2": "clickbait",
+    "type3": "bias",
+    "notes": ""
+  },
+  "politicops.com": {
+    "type": "satire",
+    "type2": "fake",
+    "type3": "",
+    "notes": "redirects to Newslo"
+  },
+  "politicot.com": {
+    "type": "satire",
+    "type2": "fake",
+    "type3": "",
+    "notes": "redirects to Newslo"
+  },
+  "politicsbreaking.com": {
+    "type": "unknown",
+    "type2": "",
+    "type3": "",
+    "notes": "connection times out"
+  },
+  "politicsinformation.com": {
+    "type": "unknown",
+    "type2": "",
+    "type3": "",
+    "notes": "resource not found"
+  },
+  "politicsinfotoday.com": {
+    "type": "unknown",
+    "type2": "",
+    "type3": "",
+    "notes": "site not found"
+  },
+  "politicsintheusa.com": {
+    "type": "unreliable",
+    "type2": "bias",
+    "type3": "",
+    "notes": ""
+  },
+  "politicsinusa.com": {
+    "type": "unknown",
+    "type2": "",
+    "type3": "",
+    "notes": "website down"
+  },
+  "politicususa.com": {
+    "type": "clickbait",
+    "type2": "unreliable",
+    "type3": "",
+    "notes": ""
+  },
+  "powerpoliticians.com": {
+    "type": "unreliable",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "pravda.ru": {
+    "type": "bias",
+    "type2": "rumor",
+    "type3": "conspiracy",
+    "notes": ""
+  },
+  "pravdareport.com": {
+    "type": "bias",
+    "type2": "rumor",
+    "type3": "conspiracy",
+    "notes": "redirects to pravda.ru"
+  },
+  "prepperwebsite.com": {
+    "type": "conspiracy",
+    "type2": "fake",
+    "type3": "",
+    "notes": ""
+  },
+  "presidentialvoting2016.com": {
+    "type": "political",
+    "type2": "bias",
+    "type3": "unreliable",
+    "notes": ""
+  },
+  "press24.us": {
+    "type": "unknown",
+    "type2": "",
+    "type3": "",
+    "notes": "site won't load past index page"
+  },
+  "presstv.com": {
+    "type": "bias",
+    "type2": "unreliable",
+    "type3": "",
+    "notes": ""
+  },
+  "presstv.ir": {
+    "type": "bias",
+    "type2": "unreliable",
+    "type3": "",
+    "notes": "redirects to presstv.com"
+  },
+  "prisonplanet.com": {
+    "type": "conspiracy",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "prisonplanet.tv": {
+    "type": "conspiracy",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "prntly.com": {
+    "type": "fake",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "projectveritas.com": {
+    "type": "bias",
+    "type2": "unreliable",
+    "type3": "political",
+    "notes": ""
+  },
+  "proudcons.com": {
+    "type": "fake",
+    "type2": "bias",
+    "type3": "",
+    "notes": ""
+  },
+  "proudemocrat.com": {
+    "type": "political",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "qpolitical.com": {
+    "type": "bias",
+    "type2": "clickbait",
+    "type3": "",
+    "notes": ""
+  },
+  "randpaulreview.com": {
+    "type": "unknown",
+    "type2": "",
+    "type3": "",
+    "notes": "domain name available for purchase"
+  },
+  "rawforbeauty.com": {
+    "type": "junksci",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "rawstory.com": {
+    "type": "political",
+    "type2": "clickbait",
+    "type3": "",
+    "notes": ""
+  },
+  "rawws.com": {
+    "type": "unknown",
+    "type2": "",
+    "type3": "",
+    "notes": "site won't load for me--kg/ x2 mz"
+  },
+  "rbth.com": {
+    "type": "unknown",
+    "type2": "",
+    "type3": "",
+    "notes": "sponsored by Rossiyskaya Gazeta (a Russian Gov't daily paper)"
+  },
+  "react365.com": {
+    "type": "fake",
+    "type2": "",
+    "type3": "",
+    "notes": "fake news generator for pranking friends"
+  },
+  "readconservatives.news": {
+    "type": "bias",
+    "type2": "fake",
+    "type3": "clickbait",
+    "notes": ""
+  },
+  "readynutrition.com": {
+    "type": "unknown",
+    "type2": "conspiracy",
+    "type3": "",
+    "notes": "survivalist blog"
+  },
+  "reagancoalition.com": {
+    "type": "bias",
+    "type2": "fake",
+    "type3": "clickbait",
+    "notes": ""
+  },
+  "realfarmacy.com": {
+    "type": "junksci",
+    "type2": "conspiracy",
+    "type3": "",
+    "notes": ""
+  },
+  "realnewsrightnow.com": {
+    "type": "fake",
+    "type2": "satire",
+    "type3": "",
+    "notes": ""
+  },
+  "realplanetnews.com": {
+    "type": "junksci",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "realprogress.online": {
+    "type": "unknown",
+    "type2": "",
+    "type3": "",
+    "notes": "website down"
+  },
+  "realtimepolitics.com": {
+    "type": "bias",
+    "type2": "unreliable",
+    "type3": "",
+    "notes": ""
+  },
+  "redflagnews.com": {
+    "type": "bias",
+    "type2": "conspiracy",
+    "type3": "unreliable",
+    "notes": ""
+  },
+  "redstate.com": {
+    "type": "political",
+    "type2": "clickbait",
+    "type3": "",
+    "notes": ""
+  },
+  "redstatewatcher.com": {
+    "type": "bias",
+    "type2": "clickbait",
+    "type3": "",
+    "notes": ""
+  },
+  "reductress.com": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "regated.com": {
+    "type": "bais",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "remedydaily.com": {
+    "type": "clickbait",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "rense.com": {
+    "type": "conspiracy",
+    "type2": "junksci",
+    "type3": "",
+    "notes": ""
+  },
+  "responsibletechnology.org": {
+    "type": "junksci",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "returnofkings.com": {
+    "type": "hate",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "revolutions2040.com": {
+    "type": "junksci",
+    "type2": "clickbait",
+    "type3": "",
+    "notes": ""
+  },
+  "rhotv.com": {
+    "type": "fake",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "rickwells.us": {
+    "type": "fake",
+    "type2": "conspiracy",
+    "type3": "",
+    "notes": ""
+  },
+  "rightalert.com": {
+    "type": "bias",
+    "type2": "unreliable",
+    "type3": "",
+    "notes": ""
+  },
+  "righton.com": {
+    "type": "unknown",
+    "type2": "",
+    "type3": "",
+    "notes": "domain for sale"
+  },
+  "rightwingnews.com": {
+    "type": "bias",
+    "type2": "unreliable",
+    "type3": "",
+    "notes": ""
+  },
+  "rilenews.com": {
+    "type": "fake",
+    "type2": "satire",
+    "type3": "",
+    "notes": ""
+  },
+  "rinf.com": {
+    "type": "political",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "rockcitytimes.com": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "ronpaulinstitute.org": {
+    "type": "political",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "rumormillnews.com": {
+    "type": "conspiracy",
+    "type2": "junksci",
+    "type3": "rumor",
+    "notes": ""
+  },
+  "ruptly.tv": {
+    "type": "political",
+    "type2": "",
+    "type3": "",
+    "notes": "owned by RT"
+  },
+  "russia-direct.org": {
+    "type": "unknown",
+    "type2": "political",
+    "type3": "",
+    "notes": "Russian news agencies are REALLY hard to analyze"
+  },
+  "russia-insider.com": {
+    "type": "bias",
+    "type2": "clickbait",
+    "type3": "",
+    "notes": ""
+  },
+  "satiratribune.com": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "satirewire.com": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "scrappleface.com": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "secretsofthefed.com": {
+    "type": "conspiracy",
+    "type2": "junksci",
+    "type3": "",
+    "notes": ""
+  },
+  "sensationalisttimes.com": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "sentinelblog.com": {
+    "type": "conspiracy",
+    "type2": "junksci",
+    "type3": "",
+    "notes": ""
+  },
+  "shareblue.com": {
+    "type": "unreliable",
+    "type2": "political",
+    "type3": "bias",
+    "notes": "My analysis is similar to this site: https://mediabiasfactcheck.com/shareblue/"
+  },
+  "sheepkillers.com": {
+    "type": "conspiracy",
+    "type2": "junksci",
+    "type3": "",
+    "notes": ""
+  },
+  "shoebat.com": {
+    "type": "conspiracy",
+    "type2": "bias",
+    "type3": "",
+    "notes": ""
+  },
+  "Silver-Coin-Investor. com": {
+    "type": "conspiracy",
+    "type2": "bias",
+    "type3": "unreliable",
+    "notes": ""
+  },
+  "SilverBearCafe.com": {
+    "type": "conspiracy",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "SilverDoctors.com": {
+    "type": "conspiracy",
+    "type2": "bias",
+    "type3": "",
+    "notes": ""
+  },
+  "SilverStealers.net": {
+    "type": "conspiracy",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "SJLendman.Blogspot.com": {
+    "type": "bias",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "skeptiko.com": {
+    "type": "conspiracy",
+    "type2": "junksci",
+    "type3": "",
+    "notes": ""
+  },
+  "sonsoflibertyradio.com": {
+    "type": "conspiracy",
+    "type2": "bias",
+    "type3": "unreliable",
+    "notes": ""
+  },
+  "SovereignMan.com": {
+    "type": "unreliable",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "speld.nl": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "sportspickle.com": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "sputniknews.com": {
+    "type": "bias",
+    "type2": "state",
+    "type3": "fake",
+    "notes": ""
+  },
+  "stneotscitizen.com": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "stormcloudsgathering.com": {
+    "type": "fake",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "stuppid.com": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "subjectpolitics.com": {
+    "type": "fake",
+    "type2": "bias",
+    "type3": "",
+    "notes": ""
+  },
+  "success-street.com": {
+    "type": "fake",
+    "type2": "clickbait",
+    "type3": "",
+    "notes": "http://success-street.com/2017/01/18/wow-obama-orders-life-sized-bronze-statute-permanently-installed-white-house/"
+  },
+  "supremepatriot.com": {
+    "type": "fake",
+    "type2": "bias",
+    "type3": "",
+    "notes": ""
+  },
+  "surrealscoop.com": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "theamericanindependent.wordpress.com": {
+    "type": "fake",
+    "type2": "bias",
+    "type3": "",
+    "notes": ""
+  },
+  "theantimedia.org": {
+    "type": "unreliable",
+    "type2": "bias",
+    "type3": "conspiracy",
+    "notes": "ex: http://theantimedia.org/cdc-admits-ebola-airborne/"
+  },
+  "thebeaverton.com": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "theblaze.com": {
+    "type": "political",
+    "type2": "clickbait",
+    "type3": "",
+    "notes": ""
+  },
+  "thebostontribune.com": {
+    "type": "fake",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "thecommonsenseshow.com": {
+    "type": "fake",
+    "type2": "conspiracy",
+    "type3": "",
+    "notes": ""
+  },
+  "thecontroversialfiles.net": {
+    "type": "fake",
+    "type2": "clickbait",
+    "type3": "",
+    "notes": ""
+  },
+  "thedailybeast.com": {
+    "type": "political",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "thedailymash.co.uk": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "thedailysheeple.com": {
+    "type": "conspiracy",
+    "type2": "bias",
+    "type3": "",
+    "notes": ""
+  },
+  "thedailywtf.com": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "theduran.com": {
+    "type": "unreliable",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "theeconomiccollapseblog.com": {
+    "type": "conspiracy",
+    "type2": "bias",
+    "type3": "",
+    "notes": ""
+  },
+  "theeventchronicle.com": {
+    "type": "conspiracy",
+    "type2": "junksci",
+    "type3": "clickbait",
+    "notes": ""
+  },
+  "TheExtinctionProtocol.com": {
+    "type": "conspiracy",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "thefederalistpapers.org": {
+    "type": "bias",
+    "type2": "conspiracy",
+    "type3": "",
+    "notes": ""
+  },
+  "thefifthcolumnnews.com": {
+    "type": "political",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "theforbiddenknowledge.com": {
+    "type": "conspiracy",
+    "type2": "junksci",
+    "type3": "",
+    "notes": ""
+  },
+  "thefreepatriot.org": {
+    "type": "fake",
+    "type2": "bias",
+    "type3": "clickbait",
+    "notes": ""
+  },
+  "thefreethoughtproject.com": {
+    "type": "unreliable",
+    "type2": "conspiracy",
+    "type3": "clickbait",
+    "notes": ""
+  },
+  "thegatewaypundit.com": {
+    "type": "bias",
+    "type2": "conspiracy",
+    "type3": "unreliable",
+    "notes": ""
+  },
+  "thegoldandoilguy.com/articles": {
+    "type": "unreliable",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "thehardtimes.net": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "theineptowl.com": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "theinformedamerican.net": {
+    "type": "unreliable",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "thelastgreatstand.com": {
+    "type": "fake",
+    "type2": "conspiracy",
+    "type3": "bias",
+    "notes": ""
+  },
+  "thelibertybeacon.com": {
+    "type": "conspiracy",
+    "type2": "junksci",
+    "type3": "bias",
+    "notes": ""
+  },
+  "thelibertymill.com": {
+    "type": "unreliable",
+    "type2": "bias",
+    "type3": "conspiracy",
+    "notes": ""
+  },
+  "themadisonmisnomer.com": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "themindunleashed.com": {
+    "type": "conspiracy",
+    "type2": "junksci",
+    "type3": "clickbait",
+    "notes": ""
+  },
+  "themindunleashed.org": {
+    "type": "conspiracy",
+    "type2": "junksci",
+    "type3": "clickbait",
+    "notes": ""
+  },
+  "themuslimissue.wordpress.com": {
+    "type": "hate",
+    "type2": "conspiracy",
+    "type3": "",
+    "notes": ""
+  },
+  "thenewinquiry.com": {
+    "type": "unknown",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "thenewsnerd.com": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "theonion.com": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "thephaser.com": {
+    "type": "conspiracy",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "thepoke.co.uk": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "thepoliticalcesspool.com": {
+    "type": "unknown",
+    "type2": "hate",
+    "type3": "",
+    "notes": "website isn't loading"
+  },
+  "thepoliticalinsider.com": {
+    "type": "conspiracy",
+    "type2": "bias",
+    "type3": "unreliable",
+    "notes": ""
+  },
+  "theracketreport.com": {
+    "type": "fake",
+    "type2": "satire",
+    "type3": "",
+    "notes": "I can't find disclaimers, but I think it's satirical"
+  },
+  "therealstrategy.com": {
+    "type": "bias",
+    "type2": "conspiracy",
+    "type3": "hate",
+    "notes": "black lives matter content spews a lot of racist info"
+  },
+  "thereporterz.com": {
+    "type": "fake",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "therightists.com": {
+    "type": "fake",
+    "type2": "bias",
+    "type3": "",
+    "notes": "publishes both biased and fake content"
+  },
+  "therightscoop.com": {
+    "type": "fake",
+    "type2": "clickbait",
+    "type3": "",
+    "notes": "no authors, no history, no about us, unverifiable data, etc."
+  },
+  "therightstuff.biz": {
+    "type": "hate",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "theshovel.com.au": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "theskunk.org": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "thespoof.com": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "thestatelyharold.com": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "thetimesoftheworld.com": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "thetruthdivision.com": {
+    "type": "fake",
+    "type2": "bias",
+    "type3": "",
+    "notes": ""
+  },
+  "thetruthseeker.co.uk": {
+    "type": "fake",
+    "type2": "conspiracy",
+    "type3": "junksci",
+    "notes": "ex: NY orchestrated the asian tsunami in 2008!"
+  },
+  "theunrealtimes.com": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "theuspatriot.com": {
+    "type": "satire",
+    "type2": "fake",
+    "type3": "",
+    "notes": ""
+  },
+  "thevalleyreport.com": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "thewatchtowers.com": {
+    "type": "bias",
+    "type2": "conspiracy",
+    "type3": "clickbait",
+    "notes": ""
+  },
+  "threepercenternation.com": {
+    "type": "fake",
+    "type2": "conspiracy",
+    "type3": "bias",
+    "notes": ""
+  },
+  "topekasnews.com": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "topinfopost.com": {
+    "type": "clickbait",
+    "type2": "unreliable",
+    "type3": "conspiracy",
+    "notes": ""
+  },
+  "TrueActivist.com": {
+    "type": "clickbait",
+    "type2": "unreliable",
+    "type3": "",
+    "notes": ""
+  },
+  "truepundit.com": {
+    "type": "bias",
+    "type2": "clickbait",
+    "type3": "",
+    "notes": ""
+  },
+  "trumpvision365.com": {
+    "type": "fake",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "truthandaction.org": {
+    "type": "bias",
+    "type2": "conspiracy",
+    "type3": "clickbait",
+    "notes": ""
+  },
+  "truthbroadcastnetwork.com": {
+    "type": "conspiracy",
+    "type2": "clickbait",
+    "type3": "",
+    "notes": ""
+  },
+  "truthfeed.com": {
+    "type": "hate",
+    "type2": "bias",
+    "type3": "conspiracy",
+    "notes": ""
+  },
+  "truthfrequencyradio.com": {
+    "type": "conspiracy",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "truthkings.com": {
+    "type": "bias",
+    "type2": "conspiracy",
+    "type3": "junksci",
+    "notes": ""
+  },
+  "truthrevolt.org": {
+    "type": "bias",
+    "type2": "hate",
+    "type3": "",
+    "notes": ""
+  },
+  "twitchy.com": {
+    "type": "clickbait",
+    "type2": "rumor",
+    "type3": "",
+    "notes": ""
+  },
+  "ufoholic.com": {
+    "type": "conspiracy",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "unclesamsmisguidedchildren.com": {
+    "type": "bias",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "unconfirmedsources.com": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "undergroundworldnews.com": {
+    "type": "fake",
+    "type2": "conspiracy",
+    "type3": "bias",
+    "notes": ""
+  },
+  "unitedmediapublishing.com": {
+    "type": "fake",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "universepolitics.com": {
+    "type": "fake",
+    "type2": "",
+    "type3": "",
+    "notes": "http://www.politifact.com/punditfact/statements/2017/jan/03/universe-politics/fake-news-michigan-gop-elector-didnt-choose-suicid/"
+  },
+  "unz.com": {
+    "type": "bias",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "us.blastingnews.com": {
+    "type": "satire",
+    "type2": "unreliable",
+    "type3": "",
+    "notes": ""
+  },
+  "usa2016elections.com": {
+    "type": "fake",
+    "type2": "",
+    "type3": "",
+    "notes": "no longer being updated"
+  },
+  "usadailypolitics.com": {
+    "type": "fake",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "usadailytime.com": {
+    "type": "fake",
+    "type2": "",
+    "type3": "",
+    "notes": "no satire disclaimer, http://usadailytime.com/breaking-mexico-closes-borders-usa-citizens/"
+  },
+  "usahitman.com": {
+    "type": "fake",
+    "type2": "conspiracy",
+    "type3": "",
+    "notes": ""
+  },
+  "usainfobox.com": {
+    "type": "fake",
+    "type2": "",
+    "type3": "",
+    "notes": "can't find satire disclaimer, patently false"
+  },
+  "usamagazinestudio.com": {
+    "type": "fake",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "usanewsflash.com": {
+    "type": "fake",
+    "type2": "bias",
+    "type3": "clickbait",
+    "notes": ""
+  },
+  "usanewsinsider.com": {
+    "type": "fake",
+    "type2": "bias",
+    "type3": "clickbait",
+    "notes": ""
+  },
+  "usanewspolitics.com": {
+    "type": "fake",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "usaonlinepolitics.com": {
+    "type": "fake",
+    "type2": "clickbait",
+    "type3": "",
+    "notes": "no longer being updated"
+  },
+  "usaphase.com": {
+    "type": "fake",
+    "type2": "bias",
+    "type3": "",
+    "notes": ""
+  },
+  "usapoliticsdaily.com": {
+    "type": "unknown",
+    "type2": "",
+    "type3": "",
+    "notes": "redirects to huffington post"
+  },
+  "usapoliticsnow.com": {
+    "type": "fake",
+    "type2": "bias",
+    "type3": "",
+    "notes": ""
+  },
+  "usapoliticstoday.com": {
+    "type": "bias",
+    "type2": "unreliable",
+    "type3": "",
+    "notes": ""
+  },
+  "usapoliticus.com": {
+    "type": "unknown",
+    "type2": "",
+    "type3": "",
+    "notes": "website  down"
+  },
+  "usascan.com": {
+    "type": "unknown",
+    "type2": "",
+    "type3": "",
+    "notes": "website  down"
+  },
+  "usasupreme.com": {
+    "type": "fake",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "usatwentyfour.com": {
+    "type": "fake",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "USAWatchdog.com": {
+    "type": "bias",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "uschronicle.com": {
+    "type": "bias",
+    "type2": "conspiracy",
+    "type3": "hate",
+    "notes": ""
+  },
+  "usconservativetoday.com": {
+    "type": "fake",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "usdefensewatch.com": {
+    "type": "unreliable",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "usfanzone.com": {
+    "type": "fake",
+    "type2": "bias",
+    "type3": "",
+    "notes": ""
+  },
+  "ushealthyadvisor.com": {
+    "type": "fake",
+    "type2": "conspiracy",
+    "type3": "junksci",
+    "notes": ""
+  },
+  "usherald.com": {
+    "type": "bias",
+    "type2": "conspiracy",
+    "type3": "unreliable",
+    "notes": ""
+  },
+  "uslifetoday.com": {
+    "type": "clickbait",
+    "type2": "",
+    "type3": "",
+    "notes": "doesn't appear to be currently updated"
+  },
+  "uspoliticslive.com": {
+    "type": "fake",
+    "type2": "bias",
+    "type3": "conspiracy",
+    "notes": ""
+  },
+  "usuncut.com": {
+    "type": "clickbait",
+    "type2": "bias",
+    "type3": "unreliable",
+    "notes": ""
+  },
+  "usviewer.com": {
+    "type": "unreliable",
+    "type2": "fake",
+    "type3": "",
+    "notes": "basically copy/pastes parts of actual reuters stories, no authors listed or publication info"
+  },
+  "vdare.com": {
+    "type": "bias",
+    "type2": "hate",
+    "type3": "",
+    "notes": ""
+  },
+  "veteransnewsnow.com": {
+    "type": "unreliable",
+    "type2": "political",
+    "type3": "",
+    "notes": "I read sample articles and didn't find inaccuracy, but the language is strong/loaded"
+  },
+  "veteranstoday.com": {
+    "type": "bias",
+    "type2": "unreliable",
+    "type3": "",
+    "notes": ""
+  },
+  "vigilantcitizen.com": {
+    "type": "fake",
+    "type2": "conspiracy",
+    "type3": "",
+    "notes": ""
+  },
+  "viralliberty.com": {
+    "type": "fake",
+    "type2": "bias",
+    "type3": "clickbait",
+    "notes": ""
+  },
+  "viraltube.nl": {
+    "type": "clickbait",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "wakeupthesheep.com": {
+    "type": "conspiracy",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "wakingtimes.com": {
+    "type": "junksci",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "wakingupwisconsin.com": {
+    "type": "conspiracy",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "WallStreetOnParade.com": {
+    "type": "unreliable",
+    "type2": "",
+    "type3": "",
+    "notes": "mostly linking/commenting on both news and other sources."
+  },
+  "washingtonexaminer.com": {
+    "type": "unreliable",
+    "type2": "bias",
+    "type3": "conspiracy",
+    "notes": ""
+  },
+  "washingtonsblog.com": {
+    "type": "bias",
+    "type2": "conspiracy",
+    "type3": "satire",
+    "notes": "Site notes it sometimes contains parody"
+  },
+  "waterfordwhispersnews.com": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "wealthcycles.com": {
+    "type": "unknown",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "wealthwire.com": {
+    "type": "unknown",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "wearechange.org": {
+    "type": "bias",
+    "type2": "conspiracy",
+    "type3": "",
+    "notes": ""
+  },
+  "weaselzippers.us": {
+    "type": "unreliable",
+    "type2": "bias",
+    "type3": "",
+    "notes": "copies/pastes quotes/bits from news orgs and other questionable sites"
+  },
+  "webdaily.com": {
+    "type": "fake",
+    "type2": "conspiracy",
+    "type3": "bias",
+    "notes": ""
+  },
+  "weeklystandard.com": {
+    "type": "political",
+    "type2": "bias",
+    "type3": "",
+    "notes": ""
+  },
+  "weeklyworldnews.com": {
+    "type": "fake",
+    "type2": "rumor",
+    "type3": "clickbait",
+    "notes": "pretty well known tabloid/fake news source"
+  },
+  "weshapelife.org": {
+    "type": "conspiracy",
+    "type2": "junksci",
+    "type3": "",
+    "notes": ""
+  },
+  "westernjournalism.com": {
+    "type": "bias",
+    "type2": "clickbait",
+    "type3": "",
+    "notes": ""
+  },
+  "whatdoesitmean.com": {
+    "type": "conspiracy",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "whatreallyhappened.com": {
+    "type": "conspiracy",
+    "type2": "rumor",
+    "type3": "",
+    "notes": ""
+  },
+  "whitepower.com": {
+    "type": "hate",
+    "type2": "conspiracy",
+    "type3": "bias",
+    "notes": ""
+  },
+  "whowhatwhy.com": {
+    "type": "unreliable",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "whowhatwhy.org": {
+    "type": "conspiracy",
+    "type2": "",
+    "type3": "",
+    "notes": "9/11 = FBI coverup"
+  },
+  "whydontyoutrythis.com": {
+    "type": "junksci",
+    "type2": "rumor",
+    "type3": "",
+    "notes": ""
+  },
+  "WideAwakeNews.com": {
+    "type": "unknown",
+    "type2": "",
+    "type3": "",
+    "notes": "now leads to a website about pizza"
+  },
+  "wikileaks.com": {
+    "type": "unknown",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "wikileaks.org": {
+    "type": "unknown",
+    "type2": "",
+    "type3": "",
+    "notes": "analyzing this info is likely beyond the scope of our project at this time. but I vote to leave it on the list to see how Wikileaks info unfolds in the future"
+  },
+  "wikispooks.com": {
+    "type": "conspiracy",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "WilliamBanzai7.blogspot.com": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "Willyloman.wordpress.com": {
+    "type": "conspiracy",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "winkprogress.com": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "winningdemocrats.com": {
+    "type": "bias",
+    "type2": "unreliable",
+    "type3": "",
+    "notes": ""
+  },
+  "witscience.org": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "wnd.com": {
+    "type": "bias",
+    "type2": "clickbait",
+    "type3": "unreliable",
+    "notes": ""
+  },
+  "WolfStreet.com": {
+    "type": "unreliable",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "wonkie.com": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "world24monitor.com": {
+    "type": "unknown",
+    "type2": "",
+    "type3": "",
+    "notes": "As far as I can tell, one person just writes up new versions of actual news stories."
+  },
+  "worldcallyoutoday.com": {
+    "type": "unknown",
+    "type2": "",
+    "type3": "",
+    "notes": "seems like the beginnings of a website?"
+  },
+  "worlddaily.info": {
+    "type": "unknown",
+    "type2": "",
+    "type3": "",
+    "notes": "website down"
+  },
+  "worldnewsdailyreport.com": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "worldnewspolitics.com": {
+    "type": "bias",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "worldpoliticsus.com": {
+    "type": "fake",
+    "type2": "",
+    "type3": "",
+    "notes": "website down"
+  },
+  "worldrumor.com": {
+    "type": "fake",
+    "type2": "",
+    "type3": "",
+    "notes": "no longer being updated?"
+  },
+  "worldstoriestoday.com": {
+    "type": "fake",
+    "type2": "",
+    "type3": "",
+    "notes": "no longer being updated?"
+  },
+  "worldtruth.tv": {
+    "type": "conspiracy",
+    "type2": "junksci",
+    "type3": "",
+    "notes": ""
+  },
+  "worldwidehealthy.com": {
+    "type": "junksci",
+    "type2": "clickbait",
+    "type3": "",
+    "notes": ""
+  },
+  "wtoe5news.com": {
+    "type": "fake",
+    "type2": "satire",
+    "type3": "",
+    "notes": "https://web.archive.org/web/20161115024211/http://wtoe5news.com/us-election/pope-francis-shocks-world-endorses-donald-trump-for-president-releases-statement/"
+  },
+  "wundergroundmusic.com": {
+    "type": "satire",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "www.rt.com": {
+    "type": "state",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "X22Report.com": {
+    "type": "conspiracy",
+    "type2": "",
+    "type3": "",
+    "notes": "website down"
+  },
+  "yellowhammernews.com": {
+    "type": "political",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "yesimright.com": {
+    "type": "fake",
+    "type2": "bias",
+    "type3": "",
+    "notes": ""
+  },
+  "Youngcons.com": {
+    "type": "bias",
+    "type2": "unreliable",
+    "type3": "",
+    "notes": ""
+  },
+  "yourfunpage.com": {
+    "type": "fake",
+    "type2": "",
+    "type3": "",
+    "notes": "mostly links to rando YT videos"
+  },
+  "yournationnews.com": {
+    "type": "clickbait",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "YourNewsline.wordpress.com": {
+    "type": "unknown",
+    "type2": "",
+    "type3": "",
+    "notes": "website down"
+  },
+  "yournewswire.com": {
+    "type": "clickbait",
+    "type2": "junksci",
+    "type3": "",
+    "notes": ""
+  },
+  "zaytung.com": {
+    "type": "unknown",
+    "type2": "",
+    "type3": "",
+    "notes": "in Turkish"
+  },
+  "Zengardner.com": {
+    "type": "unknown",
+    "type2": "",
+    "type3": "",
+    "notes": "website down"
+  },
+  "zerohedge.com": {
+    "type": "conspiracy",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  },
+  "zootfeed.com": {
+    "type": "conspiracy",
+    "type2": "",
+    "type3": "",
+    "notes": ""
+  }
+}
