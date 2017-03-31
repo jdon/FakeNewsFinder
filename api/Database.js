@@ -23,6 +23,23 @@ module.exports = {
         if(leadImage)params.Item["leadImageURL"]= {S: leadImage};
         dynamodb.putItem(params, callback);
     },
+    putdomaincheck: function (domain,type1,type2,type3,notes,callback) {
+        var params = {
+            Item: {
+                "Domain": {
+                    S: domain
+                },
+            },
+            ReturnConsumedCapacity: "TOTAL",
+            TableName: "Domains"
+        };
+        if(type1)params.Item["Type1"]= {S: type1};
+        if(type2)params.Item["Type2"]= {S: type2};
+        if(type3)params.Item["Type3"]= {S: type3};
+        if(notes)params.Item["Notes"]= {S: notes};
+        //console.log(domain + " types: " + type1 + "," + type2 + "," + type3 + " notes: " + notes);
+        dynamodb.putItem(params, callback);
+    },
     get: function (URL,callback) {
         var params = {
             Key: {
@@ -31,6 +48,17 @@ module.exports = {
                 },
             },
             TableName: "Scores"
+        };
+        dynamodb.getItem(params, callback);
+    },
+    getdomaincheck: function (Domain,callback) {
+        var params = {
+            Key: {
+                "Domain": {
+                    S: domain
+                },
+            },
+            TableName: "Domains"
         };
         dynamodb.getItem(params, callback);
     },
