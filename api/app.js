@@ -80,7 +80,7 @@ app.get('/url/:url', function(req,res){
 							console.log(result);
 							toSend.domainList = result;
 						}).catch(function(e){
-							console.log("JSON file is ded jim");
+							console.log("DB is deaded");
 						});
 						
 						
@@ -109,6 +109,7 @@ app.get('/url/:url', function(req,res){
                         //send response back to user
                         // res.send({url:url,domain:domain,title:title,author:author,excerpt:excerpt,leadImageURL:leadImageURL,Content:content,cached:false});
 						
+						//wait for all promises to finish, such as any fake news detection methods
 						Promise.all([dlPromise]).then(function(values){
 							res.send(toSend);
 						}).catch(function(e){
