@@ -1,0 +1,21 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch Domain-List
+# Your branch is up-to-date with 'origin/Domain-List'.
+#
+# Changes to be committed:
+#	modified:   api/app.js
+#	modified:   api/domainList.js
+#
+# Changes not staged for commit:
+#	modified:   api/config.json
+#
+# Untracked files:
+#	api/node_modules/aws-sdk/
+#	api/node_modules/aylien_textapi/
+#	api/node_modules/sax/
+#	api/node_modules/xml2js/
+#	api/node_modules/xmlbuilder/
+#
+

@@ -37,7 +37,7 @@ module.exports = {
         if(type2)params.Item["Type2"]= {S: type2};
         if(type3)params.Item["Type3"]= {S: type3};
         if(notes)params.Item["Notes"]= {S: notes};
-        //console.log(domain + " types: " + type1 + "," + type2 + "," + type3 + " notes: " + notes);
+        // console.log(domain + " types: " + type1 + "," + type2 + "," + type3 + " notes: " + notes);
         dynamodb.putItem(params, callback);
     },
     get: function (URL,callback) {
@@ -55,7 +55,7 @@ module.exports = {
         var params = {
             Key: {
                 "Domain": {
-                    S: domain
+                    S: Domain
                 },
             },
             TableName: "Domains"

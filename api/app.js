@@ -64,21 +64,61 @@ app.get('/url/:url', function(req,res){
                         excerpt = result.excerpt;
                         leadImageURL = result.lead_image_url;
 
-						var dlPromise = domainlist.checkDomain(domain.replace('www.',''));
+						
+						
+						// var dlPromise = domainlist.checkDomain(domain.replace('www.',''));
+						// dlPromise.then(function(result){
+							// console.log(result);
+						// }).catch(function(e){
+							// console.log("JSON file is ded jim");
+						// });
+						
+						
+						var dlPromise = domainlist.checkDomainDB(domain.replace('www.',''));
 						dlPromise.then(function(result){
 							console.log(result);
+							toSend.domainList = result;
 						}).catch(function(e){
 							console.log("JSON file is ded jim");
 						});
 						
-						domainlist.tempForJonny();
+						
+						
+						/* used to populate domain db */
+						
+						// var data = JSON.parse(fs.readFileSync('notCredible.json', 'utf8'));
+			
+						// Object.keys(data).forEach(function (key) { 
+							// var val = data[key];
+							// var domain = key.replace("www.","");
+							
+							// var type1 = val["type"];
+							// var type2 = val["type2"];
+							// var type3 = val["type3"];
+							// var notes = val["notes"];
+							// dynDb.putdomaincheck(domain,type1,type2,type3,notes,function(error,result)
+                            // {
+                                // if (error) console.log(error, error.stack); // an error occurred
+                                // else     console.log(result);           // successful response
+                            // });
+							// console.log(key + "types: " + type1 + "," + type2 + "," + type3 + "notes: " + notes);
+						// })
+						
 						
                         //send response back to user
-                        res.send({url:url,domain:domain,title:title,author:author,excerpt:excerpt,leadImageURL:leadImageURL,Content:content,cached:false});
+                        // res.send({url:url,domain:domain,title:title,author:author,excerpt:excerpt,leadImageURL:leadImageURL,Content:content,cached:false});
+						
+						Promise.all([dlPromise]).then(function(values){
+							res.send(toSend);
+						}).catch(function(e){
+							res.send("ERROR");
+						});
+						
+						
                         //put into the database after the response is set to speed up the process
                         if(useDB)
                         {
-                            dynDb.put(url,domain,title,author,excerpt,content,leadImageURL,function(error,result)
+                            dynDb.put(url,domain,title,author,excerpt,content,function(error,result)
                             {
                                 if (error) console.log(error, error.stack); // an error occurred
                                 else     console.log(result);           // successful response
