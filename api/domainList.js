@@ -1,36 +1,17 @@
 var fs = require('fs');
+var util = require('./Util');
 var db = require('./Database');
 
-function isEmpty(obj) {
-    // null and undefined are "empty"
-    if (obj == null) return true;
-
-    // Assume if it has a length property with a non-zero value
-    // that that property is correct.
-    if (obj.length && obj.length > 0)    return false;
-    if (obj.length === 0)  return true;
-
-    // Otherwise, does it have any properties of its own?
-    // Note that this doesn't handle
-    // toString and toValue enumeration bugs in IE < 9
-    for (var key in obj) {
-        if (hasOwnProperty.call(obj, key)) return false;
-    }
-
-    return true;
-}
-
 module.exports = {
-	checkDomain: function(domain){
+	checkDomain: function(domain){//check domain when db isn't available. slower than db method
 		return new Promise(function(resolve,reject){
 			try{
-				var data = JSON.parse(fs.readFileSync('notCredible.json', 'utf8'));
-				console.log("domain: " + domain);
-				
+				//try read in from file
+				var data = JSON.parse(fs.readFileSync('notCredible.json', 'utf8'));			
 				var domaindata = data[domain];
-				if(domaindata != null){
+				if(domaindata != null){//in list, so untrusted source
 					resolve({fake:true,info:domaindata});
-				}else{
+				}else{//not in lsit, so not untrusted
 					resolve({fake:false,info:null});
 				}
 			}catch(e){
@@ -41,9 +22,11 @@ module.exports = {
 	checkDomainDB: function(domain){
 		return new Promise(function(resolve,reject){
 			try{
+				//try to find domain in database
 				db.getdomaincheck(domain,function(error,result){
-				if(result && !isEmpty(result))
-				{					
+				if(result && !util.isEmpty(result))
+				{				
+					//domain in db, so untrusted source
 					var out = {};
 					out.fake = true;
 					out.notes = {};
@@ -52,35 +35,37 @@ module.exports = {
 					if(result.Item.Type3) out.notes.type3 = result.Item.Type3.S;
 					if(result.Item.Notes) out.notes.notes = result.Item.Notes.S;
 					
-					// console.log(type1 + ", " + type2 + ", " + type3 + ", " + notes);
 					resolve(out);
 				}else{
+					//not in db, so not untrusted
 					resolve({fake:false,notes:null});
 				}
 			});
-			}catch(e){
-				reject("wut");
+			}catch(e){ //This should never happen ;)
+				reject("Failed To Access Database");
 			}
 		});
 	},
-	tempForJonny: function(){
-		try{
-			var data = JSON.parse(fs.readFileSync('notCredible.json', 'utf8'));
+	populateDomainTable: function(){
+		/* used to populate domain db */
+		
+		//read data from data file
+		var data = JSON.parse(fs.readFileSync('notCredible.json', 'utf8'));
+		
+		Object.keys(data).forEach(function (key) { 
+			var val = data[key];
+			var domain = key.replace("www.",""); //remove www for consistency
 			
-			Object.keys(data).forEach(function (key) { 
-				var val = data[key];
-				var domain = key.replace("www.","");
-				
-				var type1 = val["type"];
-				var type2 = val["type2"];
-				var type3 = val["type3"];
-				var notes = val["notes"];
-				
-				console.log(key + "types: " + type1 + "," + type2 + "," + type3 + "notes: " + notes);
-			})
+			var type1 = val["type"];
+			var type2 = val["type2"];
+			var type3 = val["type3"];
+			var notes = val["notes"];
 			
-		}catch(e){
-			console.log("no json file here you numpty");
-		}
+			//attempt to put on database
+			dynDb.putdomaincheck(domain,type1,type2,type3,notes,function(error,result){
+				if (error) console.log(error, error.stack); // an error occurred
+				else     console.log(result);           // successful response
+			});
+		})
 	}
 };
