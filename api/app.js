@@ -17,10 +17,10 @@ app.use(function(req,res,next){
 	next();
 });
 
-app.get('/', function(req,res) {
+app.get('/', function(req,res,next) {
     res.send(fs.readFileSync(__dirname+'/index.html','utf8'));
 });
-app.get('/url/:url', function(req,res){
+app.get('/url/:url', function(req,res,next){
 	
 	//reformat URL to be consistent
     var url = req.params.url.replace(/(^\w+:|^)\/\//, '').replace(/^www\./,'');
