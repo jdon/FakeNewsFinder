@@ -90,7 +90,7 @@ app.get('/url/:url', function(req,res){
                         //put into the database after the response is set to speed up the process
                         if(useDB)
                         {
-                            dynDb.put(url,domain,title,author,excerpt,content,function(error,result)
+                            dynDb.put(url,domain,title,author,excerpt,content,leadImageURL,function(error,result)
                             {
                                 if (error) console.log(error, error.stack); // an error occurred
                                 else     console.log(result);           // successful response
