@@ -85,4 +85,4 @@ var DandelionAPI = (function(){
 
 // example
 WScript.Echo(DandelionAPI.analyseSimiliarity.fromUrl('https://www.theguardian.com/world/2017/apr/13/thailand-bans-online-sharing-of-articles-by-three-critics-of-regime'));
-WScript.Echo(DandelionAPI.analyseSimilarity.fromUrl('http://www.theherald.com.au/story/4596391/thailand-bans-online-communication-with-three-critics/?cs=5'));
+WScript.Echo(DandelionAPI.analyseSimiliarity.fromUrl('http://www.theherald.com.au/story/4596391/thailand-bans-online-communication-with-three-critics/?cs=5'));
