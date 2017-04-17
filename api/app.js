@@ -4,12 +4,11 @@ var parser = require('./NewsParser');
 var politifact = require('./Politifact');
 var domainlist = require('./domainList');
 var util = require('./Util');
-var dynDb;
+var dynDb = require('./Database');
 var NLP = require('./NLP');
 var app = express();
 var fs = require('fs');
 var useDB = true;
-if(useDB) dynDb = require('./Database');
 
 app.use(function(req,res,next){
 	res.header("Access-Control-Allow-Origin", "*");
@@ -38,7 +37,7 @@ app.get('/url/:url', function(req,res,next){
     if(dynDb.get(url,function(error,result)
         {
             //result from the database so set the vars
-            if(result && !util.isEmpty(result) && useDB && 1==0)
+            if(result && !util.isEmpty(result) && useDB)
             {
                 if(result.Item.Title) title = result.Item.Title.S;
                 if(result.Item.Author) author = result.Item.Author.S;
@@ -46,7 +45,23 @@ app.get('/url/:url', function(req,res,next){
                 if(result.Item.Content) content = result.Item.Content.S;
                 if(result.Item.Excerpt) excerpt = result.Item.Excerpt.S;
                 if(result.Item.leadImageURL) leadImageURL = result.Item.leadImageURL.S;
-                res.send({url:url,domain:domain,title:title,author:author,excerpt:excerpt,leadImageURL:leadImageURL,Content:content,cached:true});
+                var toSend = {cached:true,domain:domain,title:title,author:author};
+                var promises = [];
+                var dlPromise = domainlist.checkDomainDB(domain);
+                dlPromise.then(function(result){
+                    // console.log(result);
+                    toSend.domainList = result;
+                }).catch(function(e){
+                    console.log("DB is deaded");
+                });
+                promises.push(dlPromise);
+                //wait for all promises to finish, such as any fake news detection methods
+                Promise.all(promises).then(function(values){
+                    res.send(toSend);
+                }).catch(function(e){
+                    res.send("ERROR");
+                });
+
             }//database is down so just parse like normal
             else
             {
