@@ -1,29 +1,26 @@
+/**
+ * Created by Sufflock on 14/04/2017.
+ * Last modified by Sufflock on 21/04/2017.
+ */
 var DandelionAPI = (function(){
+   var config = require('./config.json');
    var api = {
       /* set the API key here */
-      apiKey:  '7707298fb4404eb2892d4ae12b83e006',
-      coreUrl: 'https://api.dandelion.eu',
+      apiKey:  config.dandelionApiKey,
+      coreUrl: config.dandelionCoreUrl,
+      debug:   false,
 
-      call: function(url, post, postData){
+      call: function(callback, address, post, postData){
          post = typeof post !== 'undefined' ? true : false;
          postData = typeof postData !== 'undefined' ? this.serialize(postData) : "";
 
-         if ( typeof XMLHttpRequest !== 'undefined')
-            var request = new XMLHttpRequest();
-         else if ( typeof ActiveXObject !== 'undefined' )
-            var request = new ActiveXObject("Microsoft.XMLHTTP");
+         var request = require('request');
          if ( post === true ){
-            // POST
-            request.open('POST', url, false);
-            request.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
-            request.send(postData);
+            if(this.debug)console.log('DandelionAPI::POST(' + postData + ') to ' + address);
+            request.post({url: address, method: 'POST', headers: {'content-type': 'application/x-www-form-urlencoded'}, body: postData}, callback);
          } else {
-            // GET
-            request.open('GET', url, false);
-            request.send(null);
-         }
-         if ( request.status === 200 ){
-            return request.responseText;
+            if(this.debug)console.log('DandelionAPI::GET to ' + address);
+            request.get({url: address, method: 'GET'}, callback);
          }
       },
 
@@ -44,9 +41,9 @@ var DandelionAPI = (function(){
       additionalParams = typeof additionalParams !== 'undefined' ? api.serialize(additionalParams) : '';
       var obj = {
          localUrl: api.coreUrl + '/datatxt/' + apiType + '/' + (typeof apiVer !== 'undefined' ? 'v'+apiVer : 'v1') + '/?token=' + api.apiKey,
-         fromText: function(text, lang){ return api.call(this.localUrl + '&lang=' + (typeof lang !== 'undefined' ? lang : 'en') + (additionalParams != '' ? additionalParams : ''),
+         fromText: function(callback, text, lang){ return api.call(callback, this.localUrl + '&lang=' + (typeof lang !== 'undefined' ? lang : 'en') + (additionalParams != '' ? additionalParams : ''),
                                                          true, {'text': text}); },
-         fromUrl:  function(url,  lang){ return api.call(this.localUrl + '&lang=' + (typeof lang !== 'undefined' ? lang : 'en') + (additionalParams != '' ? additionalParams : '')
+         fromUrl:  function(callback, url,  lang){ return api.call(callback, this.localUrl + '&lang=' + (typeof lang !== 'undefined' ? lang : 'en') + (additionalParams != '' ? additionalParams : '')
                                                          + '&url=' + api.urlEncode(url)); }
       };
       return obj;
@@ -56,9 +53,9 @@ var DandelionAPI = (function(){
       additionalParams = typeof additionalParams !== 'undefined' ? api.serialize(additionalParams) : '';
       var obj = {
          localUrl: api.coreUrl + '/datatxt/' + apiType + '/' + (typeof apiVer !== 'undefined' ? 'v'+apiVer : 'v1') + '/?token=' + api.apiKey,
-         fromText: function(text1, text2, lang){ return api.call(this.localUrl + '&lang=' + (typeof lang !== 'undefined' ? lang : 'en') + (additionalParams != '' ? additionalParams : ''),
+         fromText: function(callback, text1, text2, lang){ return api.call(callback, this.localUrl + '&lang=' + (typeof lang !== 'undefined' ? lang : 'en') + (additionalParams != '' ? additionalParams : ''),
                                                                  true, {'text1': text1, 'text2': text2}); },
-         fromUrl:  function(url1,  url2,  lang){ return api.call(this.localUrl + '&lang=' + (typeof lang !== 'undefined' ? lang : 'en') + (additionalParams != '' ? additionalParams : '')
+         fromUrl:  function(callback, url1,  url2,  lang){ return api.call(callback, this.localUrl + '&lang=' + (typeof lang !== 'undefined' ? lang : 'en') + (additionalParams != '' ? additionalParams : '')
                                                                  + '&url1=' + api.urlEncode(url1) + '&url2=' + api.urlEncode(url2)); }
       };
       return obj;
@@ -82,7 +79,4 @@ var DandelionAPI = (function(){
    return api;
 })();
 
-
-// example
-WScript.Echo(DandelionAPI.analyseSimiliarity.fromUrl('https://www.theguardian.com/world/2017/apr/13/thailand-bans-online-sharing-of-articles-by-three-critics-of-regime'));
-WScript.Echo(DandelionAPI.analyseSimilarity.fromUrl('http://www.theherald.com.au/story/4596391/thailand-bans-online-communication-with-three-critics/?cs=5'));
+module.exports = DandelionAPI;

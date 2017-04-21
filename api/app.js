@@ -11,6 +11,17 @@ var fs = require('fs');
 var useDB = true;
 if(useDB) dynDb = require('./Database');
 
+var requiredModules = ['aws-sdk', 'aylien_textapi'];
+
+requiredModules.forEach(function(item,index){
+    try { require.resolve(item);
+    } catch(e) {
+        console.error("ERROR: this app requires the module '"+item+"' but your node.JS doesn't have it\n" +
+                      "       Please run 'npm install "+item+"' and re-run this app.\n");
+        process.exit(e.code);
+    }
+});
+
 app.use(function(req,res,next){
 	res.header("Access-Control-Allow-Origin", "*");
 	res.header("Access-Control-Allow-Headers", "Origin, X-Requested-With, Content-Type, Accept");
