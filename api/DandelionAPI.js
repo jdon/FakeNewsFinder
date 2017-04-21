@@ -79,4 +79,6 @@ var DandelionAPI = (function(){
    return api;
 })();
 
+<<<<<<< HEAD
 module.exports = DandelionAPI;
+=======
