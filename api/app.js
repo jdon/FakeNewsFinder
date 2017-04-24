@@ -15,6 +15,8 @@ if(useDB) dynDb = require('./Database');
 
 
 // DandelionAPI -- usage:
+//    dandapi.{function name}.fromUrl(callback, url [, url2 [, lang]])
+//    dandapi.{function name}.fromText(callback, text [, url2 [, lang]])
 // Function names:
 //      extractEntities
 //      classifyContent

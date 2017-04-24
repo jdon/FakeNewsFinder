@@ -24,11 +24,13 @@ var DandelionAPI = (function(){
          }
       },
 
-      urlEncode: function(string){
+      urlEncode: function(string) // encode any special characters
+	  {
          return encodeURIComponent(string);
       },
 
-      serialize: function(obj) {
+      serialize: function(obj) 
+	  {
          var str = [];
          for(var p in obj) if (obj.hasOwnProperty(p)) str.push(this.urlEncode(p) + "=" + this.urlEncode(obj[p]));
          str = str.join("&");
@@ -37,8 +39,10 @@ var DandelionAPI = (function(){
       }
    };
 
-   function makeCallerSingle(apiType, additionalParams, apiVer) {
+   function makeCallerSingle(apiType, additionalParams, apiVer) // construct call (single)
+   {
       additionalParams = typeof additionalParams !== 'undefined' ? api.serialize(additionalParams) : '';
+	  
       var obj = {
          localUrl: api.coreUrl + '/datatxt/' + apiType + '/' + (typeof apiVer !== 'undefined' ? 'v'+apiVer : 'v1') + '/?token=' + api.apiKey,
          fromText: function(callback, text, lang){ return api.call(callback, this.localUrl + '&lang=' + (typeof lang !== 'undefined' ? lang : 'en') + (additionalParams != '' ? additionalParams : ''),
@@ -49,8 +53,10 @@ var DandelionAPI = (function(){
       return obj;
    };
 
-   function makeCallerDouble(apiType, additionalParams, apiVer) {
+   function makeCallerDouble(apiType, additionalParams, apiVer) // construct call (double) 
+   {
       additionalParams = typeof additionalParams !== 'undefined' ? api.serialize(additionalParams) : '';
+	  
       var obj = {
          localUrl: api.coreUrl + '/datatxt/' + apiType + '/' + (typeof apiVer !== 'undefined' ? 'v'+apiVer : 'v1') + '/?token=' + api.apiKey,
          fromText: function(callback, text1, text2, lang){ return api.call(callback, this.localUrl + '&lang=' + (typeof lang !== 'undefined' ? lang : 'en') + (additionalParams != '' ? additionalParams : ''),
@@ -74,11 +80,10 @@ var DandelionAPI = (function(){
    api.detectLanguage    = makeCallerSingle('li');
 
    // optional parameters: bow (never | both_empty | one_empty | always)
-   api.analyseSimiliarity = makeCallerDouble('sim');
+   api.analyseSimilarity = makeCallerDouble('sim');
 
    return api;
 })();
 
-<<<<<<< HEAD
 module.exports = DandelionAPI;
-=======
+
