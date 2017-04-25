@@ -8,7 +8,42 @@ var dynDb = require('./Database');
 var NLP = require('./NLP');
 var app = express();
 var fs = require('fs');
+var dandapi = require('./DandelionAPI');
 var useDB = true;
+
+
+
+// DandelionAPI -- usage:
+//    dandapi.{function name}.fromUrl(callback, url [, url2 [, lang]])
+//    dandapi.{function name}.fromText(callback, text [, url2 [, lang]])
+// Function names:
+//      extractEntities
+//      classifyContent
+//      analyseSentiment
+//      detectLanguage
+//      analyseSimilarity (takes two params, ie. url1/url2 or text1/text2)
+
+dandapi.detectLanguage.fromUrl(function(error, response, body){
+    if ( response && response.statusCode == 200 ){
+        body = JSON.parse(body);
+        console.log('DandelionAPI/li/ detected langs: ', body.detectedLangs.length);
+        body.detectedLangs.forEach(function(item,index){
+            console.log('   Detected lang: ', item.lang);
+            console.log('   Confidence:    ', item.confidence);
+        });
+    }
+}, 'http://www.bbc.co.uk/news/live/uk-politics-39681158');
+
+var requiredModules = ['aws-sdk', 'aylien_textapi'];
+
+requiredModules.forEach(function(item,index){
+    try { require.resolve(item);
+    } catch(e) {
+        console.error("ERROR: this app requires the module '"+item+"' but your node.JS doesn't have it\n" +
+                      "       Please run 'npm install "+item+"' and re-run this app.\n");
+        process.exit(e.code);
+    }
+});
 
 app.use(function(req,res,next){
 	res.header("Access-Control-Allow-Origin", "*");

@@ -1,5 +1,7 @@
-{ 
+{
+    "region": "eu-west-2",
     "accessKeyId": "",
     "secretAccessKey": "",
-    "region": "eu-west-2"
+    "dandelionApiKey": "7707298fb4404eb2892d4ae12b83e006",
+    "dandelionCoreUrl": "https://api.dandelion.eu"
 }
