@@ -47,7 +47,7 @@ app.get('/url/:url', function(req,res,next){
                 if(result.Item.leadImageURL) leadImageURL = result.Item.leadImageURL.S;
                 var toSend = {cached:true,domain:domain,title:title,author:author};
                 var promises = [];
-                var dlPromise = domainlist.checkDomainDB(domain);
+                var dlPromise = domainlist.checkDomainDB(domain.replace(/(^\w+:|^)\/\//, '').replace(/^www\./,''));
                 dlPromise.then(function(result){
                     // console.log(result);
                     toSend.domainList = result;
