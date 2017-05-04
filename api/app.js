@@ -32,7 +32,31 @@ app.get('/url/:url', function(req,res,next){
     var content;
     var excerpt;
     var leadImageURL;
-	
+	NLP.parse(url,function (error,result) {
+
+	    if(result)
+	    {
+	        if(dynDb.putJSON(url,result,function (error,result) {
+	            if(result && !util.isEmpty(result))
+	            {
+	                console.log(result);
+                }else
+                    {
+                        console.log(error);
+                    }
+                }));
+            if(dynDb.getJSON(url,function (error,result) {
+                    if(result && !util.isEmpty(result))
+                    {
+                        if(result.Item.JSON) jsn = result.Item.JSON.S;
+                        console.log(JSON.parse(jsn));
+                    }else
+                    {
+                        console.log(error);
+                    }
+                }));
+        }
+    });
     //check if the url is in the database
     if(dynDb.get(url,function(error,result)
         {

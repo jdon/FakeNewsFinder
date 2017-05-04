@@ -5,6 +5,30 @@ var AWS = require('aws-sdk');
 AWS.config.loadFromPath(__dirname + '/config.json');
 var dynamodb = new AWS.DynamoDB();
 module.exports = {
+    putJSON: function (URL,jsn,callback) {
+        var params = {
+            Item: {
+                "URL": {
+                    S: URL
+                },
+            },
+            ReturnConsumedCapacity: "TOTAL",
+            TableName: "Compare"
+        };
+        if(jsn)params.Item["JSON"]= {S: JSON.stringify(jsn)};
+        dynamodb.putItem(params, callback);
+    },
+    getJSON: function (URL,callback) {
+        var params = {
+            Key: {
+                "URL": {
+                    S: URL
+                },
+            },
+            TableName: "Compare"
+        };
+        dynamodb.getItem(params, callback);
+    },
     put: function (URL,domain,title,author,excerpt,content,leadImage,callback) {
         var params = {
             Item: {

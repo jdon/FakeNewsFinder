@@ -8,9 +8,8 @@ var textapi = new AYLIENTextAPI({
 });
 module.exports = {
     parse: function (website,callback) {
-        textapi.concepts({
+        textapi.entities({
             'url': website,
-            'language': "en"
         },callback)
     },
 };
