@@ -74,42 +74,42 @@ app.get('/url/:url', function(req,res,next){
     var content;
     var excerpt;
     var leadImageURL;
-	NLP.parse(url,function (error,result) {
-	    if(result.entities.keyword)
-	    {
-			var tags = result.entities.keyword; //tags of requested site
-			//console.log(tags);
+	// NLP.parse(url,function (error,result) {
+	    // if(result.entities.keyword)
+	    // {
+			// var tags = result.entities.keyword; //tags of requested site
+			// //console.log(tags);
 			
-			//grba json file
-			var obj = JSON.parse(fs.readFileSync('tags.json', 'utf8'));
-			//console.log(obj);
+			// //grba json file
+			// var obj = JSON.parse(fs.readFileSync('tags.json', 'utf8'));
+			// //console.log(obj);
 			
-			var bestindex = {"index":0,"qty":0}
-			console.log("harambe");
-			for(var i in obj){
-				var matches = 0;
+			// var bestindex = {"index":0,"qty":0}
+			// console.log("harambe");
+			// for(var i in obj){
+				// var matches = 0;
 				
-				for(var t in tags){
+				// for(var t in tags){
 					
-					if(obj[i].tags){
-						if(obj[i].tags.includes(tags[t])){
-							matches ++;
-						}
-					}else{
-						//console.log(obj[i]);
-					}
+					// if(obj[i].tags){
+						// if(obj[i].tags.includes(tags[t])){
+							// matches ++;
+						// }
+					// }else{
+						// //console.log(obj[i]);
+					// }
 					
-				}
-				if(bestindex.qty < matches){
-					bestindex.qty = matches;
-					bestindex.index = i;
-				}
-				//console.log(obj[i].url + " " + matches);
-			}
-			console.log("best url: " + obj[bestindex.index].url);
+				// }
+				// if(bestindex.qty < matches){
+					// bestindex.qty = matches;
+					// bestindex.index = i;
+				// }
+				// //console.log(obj[i].url + " " + matches);
+			// }
+			// console.log("best url: " + obj[bestindex.index].url);
 			
-        }
-    });
+        // }
+    // });
     //check if the url is in the database
     if(dynDb.get(url,function(error,result)
         {
@@ -168,7 +168,12 @@ app.get('/url/:url', function(req,res,next){
 								//console.log(obj[i].url + " " + matches);
 							}
 							console.log("best url: " + obj[bestindex.index].url);
-							toSend.domainList.notes = "best url: " + obj[bestindex.index].url;
+							if(bestindex.qty > 0){
+								toSend.domainList.notes = "best url: " + obj[bestindex.index].url;
+							}else{
+								toSend.domainList.notes = "no similar articles found";
+							}
+							
 							res.send(toSend);
 						}
 					});
@@ -255,8 +260,12 @@ app.get('/url/:url', function(req,res,next){
 								}
 								//console.log(obj[i].url + " " + matches);
 							}
-							console.log("best url: " + obj[bestindex.index].url);
-							toSend.domainList.notes = "best url: " + obj[bestindex.index].url;
+							//console.log("best url: " + obj[bestindex.index].url);
+							if(bestindex.qty > 0){
+								toSend.domainList.notes = "best url: " + obj[bestindex.index].url;
+							}else{
+								toSend.domainList.notes = "no similar articles found";
+							}
 							res.send(toSend);
 						}
 					});
