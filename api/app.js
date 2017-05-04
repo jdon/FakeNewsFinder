@@ -19,6 +19,48 @@ app.use(function(req,res,next){
 app.get('/', function(req,res,next) {
     res.send(fs.readFileSync(__dirname+'/index.html','utf8'));
 });
+app.get('/tags', function(req,res,next) {
+    res.send(fs.readFileSync(__dirname+'/index2.html','utf8'));
+});
+app.get('/tags/:url', function(req,res,next){
+	var url = req.params.url.replace(/(^\w+:|^)\/\//, '').replace(/^www\./,'');
+    url = "http://"+url;
+	//console.log(url);
+	NLP.parse(url,function(err,stuff){
+		if(stuff.entities.keyword){
+			res.send({url:url,tags:stuff.entities.keyword});
+		}
+	});
+	
+	// var pf = politifact.getData(50,function(value){
+		// //console.log(value);
+		// //res.send(value.stories);
+		// var stories = value.stories;
+		
+		// var tosend = [];
+		
+		// for(var i in stories){
+			// var pfurl = "http://politifact.com" + stories[i].story_url;
+			// //console.log(pfurl);
+			// //tosend.push(pfurl);
+			// NLP.parse(pfurl,function(err,stuff){
+				// if(stuff){
+					// console.log(stuff.entities);
+					// //res.send({url:url,tags:stuff.entities.keyword});
+					// //console.log({url:pfurl,tags:stuff.entities.keyword});
+					// tosend.push({url:pfurl,tags:stuff.entities.keyword});
+					// //console.log(tosend);
+					// if(tosend.length == 50){
+						// res.send(tosend);
+					// }
+				// }
+			// });
+		// }
+		// //res.send(tosend);
+	// });
+	
+	
+});
 app.get('/url/:url', function(req,res,next){
 	
 	//reformat URL to be consistent
@@ -33,28 +75,39 @@ app.get('/url/:url', function(req,res,next){
     var excerpt;
     var leadImageURL;
 	NLP.parse(url,function (error,result) {
-
-	    if(result)
+	    if(result.entities.keyword)
 	    {
-	        if(dynDb.putJSON(url,result,function (error,result) {
-	            if(result && !util.isEmpty(result))
-	            {
-	                console.log(result);
-                }else
-                    {
-                        console.log(error);
-                    }
-                }));
-            if(dynDb.getJSON(url,function (error,result) {
-                    if(result && !util.isEmpty(result))
-                    {
-                        if(result.Item.JSON) jsn = result.Item.JSON.S;
-                        console.log(JSON.parse(jsn));
-                    }else
-                    {
-                        console.log(error);
-                    }
-                }));
+			var tags = result.entities.keyword; //tags of requested site
+			//console.log(tags);
+			
+			//grba json file
+			var obj = JSON.parse(fs.readFileSync('tags.json', 'utf8'));
+			//console.log(obj);
+			
+			var bestindex = {"index":0,"qty":0}
+			console.log("harambe");
+			for(var i in obj){
+				var matches = 0;
+				
+				for(var t in tags){
+					
+					if(obj[i].tags){
+						if(obj[i].tags.includes(tags[t])){
+							matches ++;
+						}
+					}else{
+						//console.log(obj[i]);
+					}
+					
+				}
+				if(bestindex.qty < matches){
+					bestindex.qty = matches;
+					bestindex.index = i;
+				}
+				//console.log(obj[i].url + " " + matches);
+			}
+			console.log("best url: " + obj[bestindex.index].url);
+			
         }
     });
     //check if the url is in the database
@@ -80,11 +133,52 @@ app.get('/url/:url', function(req,res,next){
                 });
                 promises.push(dlPromise);
                 //wait for all promises to finish, such as any fake news detection methods
-                Promise.all(promises).then(function(values){
-                    res.send(toSend);
-                }).catch(function(e){
+                Promise.all(promises).then(function(values){	
+					console.log("sending");
+					NLP.parse(url,function (error,result) {
+						if(result.entities.keyword)
+						{
+							var tags = result.entities.keyword; //tags of requested site
+							//console.log(tags);
+							
+							//grba json file
+							var obj = JSON.parse(fs.readFileSync('tags.json', 'utf8'));
+							//console.log(obj);
+							
+							var bestindex = {"index":0,"qty":0}
+							console.log("harambe");
+							for(var i in obj){
+								var matches = 0;
+								
+								for(var t in tags){
+									
+									if(obj[i].tags){
+										if(obj[i].tags.includes(tags[t])){
+											matches ++;
+										}
+									}else{
+										//console.log(obj[i]);
+									}
+									
+								}
+								if(bestindex.qty < matches){
+									bestindex.qty = matches;
+									bestindex.index = i;
+								}
+								//console.log(obj[i].url + " " + matches);
+							}
+							console.log("best url: " + obj[bestindex.index].url);
+							toSend.domainList.notes = "best url: " + obj[bestindex.index].url;
+							res.send(toSend);
+						}
+					});
+                    
+                }).catch(function(e){			
+
                     res.send("ERROR");
                 });
+				
+				
 
             }//database is down so just parse like normal
             else
@@ -116,6 +210,8 @@ app.get('/url/:url', function(req,res,next){
 						var toSend = {domain:domain,title:title,author:author};
 						var promises = [];
 						
+						
+						
 						var dlPromise = domainlist.checkDomainDB(domain.replace('www.',''));
 						dlPromise.then(function(result){
 							// console.log(result);
@@ -127,7 +223,43 @@ app.get('/url/:url', function(req,res,next){
 						
 						//wait for all promises to finish, such as any fake news detection methods
 						Promise.all(promises).then(function(values){
+							NLP.parse(url,function (error,result) {
+						if(result.entities.keyword)
+						{
+							var tags = result.entities.keyword; //tags of requested site
+							//console.log(tags);
+							
+							//grba json file
+							var obj = JSON.parse(fs.readFileSync('tags.json', 'utf8'));
+							//console.log(obj);
+							
+							var bestindex = {"index":0,"qty":0}
+							console.log("harambe");
+							for(var i in obj){
+								var matches = 0;
+								
+								for(var t in tags){
+									
+									if(obj[i].tags){
+										if(obj[i].tags.includes(tags[t])){
+											matches ++;
+										}
+									}else{
+										//console.log(obj[i]);
+									}
+									
+								}
+								if(bestindex.qty < matches){
+									bestindex.qty = matches;
+									bestindex.index = i;
+								}
+								//console.log(obj[i].url + " " + matches);
+							}
+							console.log("best url: " + obj[bestindex.index].url);
+							toSend.domainList.notes = "best url: " + obj[bestindex.index].url;
 							res.send(toSend);
+						}
+					});
 						}).catch(function(e){
 							res.send("ERROR");
 						});
