@@ -169,9 +169,9 @@ app.get('/url/:url', function(req,res,next){
 							}
 							console.log("best url: " + obj[bestindex.index].url);
 							if(bestindex.qty > 0){
-								toSend.domainList.notes.notes = "best url: " + obj[bestindex.index].url;
+								toSend.similarArticles = obj[bestindex.index].url;
 							}else{
-								toSend.domainList.notes.notes = "no similar articles found";
+								toSend.similarArticles = "no similar articles found";
 							}
 							
 							res.send(toSend);
@@ -262,9 +262,9 @@ app.get('/url/:url', function(req,res,next){
 							}
 							//console.log("best url: " + obj[bestindex.index].url);
 							if(bestindex.qty > 0){
-								toSend.domainList.notes.notes = "best url: " + obj[bestindex.index].url;
+								toSend.similarArticles = obj[bestindex.index].url;
 							}else{
-								toSend.domainList.notes.notes = "no similar articles found";
+								toSend.similarArticles = "no similar articles found";
 							}
 							res.send(toSend);
 						}
